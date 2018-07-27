@@ -1,0 +1,86 @@
+﻿<style>
+
+    iframe {
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        background-color: transparent;
+        z-index: 100;
+    }
+
+    div {
+        padding: 0px;
+    }
+
+    #result_text {
+        display: none;
+    }
+
+    .divParent {
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        background-image: url(../../Images/sky.JPG);
+        background-position: center;
+        background-size: cover;
+    }
+
+    .div_dialog {
+        top: 30%;
+        left: 35%;
+        width: 30%;
+        height: auto;
+        position: fixed;
+        background-color: red;
+        padding: 0px;
+        border: 1px solid #cfa3a3;
+        padding: 20px;
+    }
+
+        .div_dialog div, button {
+            border: 0px solid gray;
+            margin-top: 20px;
+        }
+
+    input {
+        width: inherit;
+    }
+
+    textarea {
+        height: inherit;
+    }
+</style>
+
+<div class="divParent">
+    <label>Join our LivingWell Health Club & Spa Berlin. The club that offers you more.</label>
+
+    <div id="hero">
+        <div class="container">
+            <div id="bannerTitle">HERZLICH WILLKOMMEN</div>
+        </div>
+        <div id="hero-svg"></div>
+    </div>
+    <div id="main">
+        <div class="container">
+            <span id="ctl00_SessionTimeoutWarning1_lblSessionWarning">Warnung. Die Server-Sitzung wird infolge von Inaktivität in Kürze beendet.</span>&nbsp;
+            <br />
+            <br />
+            <div id="timer">
+                <i class="uk-icon uk-icon-clock-o"></i>&nbsp;<b><span id="lblTimeout">120</span></b> seconds left
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<iframe src="@Url.Action("About", "Home")" name="foo"></iframe>
+
+
+
+
+
