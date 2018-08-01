@@ -1,4 +1,3 @@
 # Projects OK
-I have updated from Home 25072018 - 1323
-Updated from office  25072018 - 1356
-How you doing
+Readme 2 notes and we will hpefully undestand this...
+
