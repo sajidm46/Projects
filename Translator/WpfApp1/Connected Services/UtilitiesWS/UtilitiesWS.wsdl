@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="HelloWorld">
+        <s:complexType />
+      </s:element>
+      <s:element name="HelloWorldResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="HelloWorldResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CalculatePercentage">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GrossAmount" type="s:double" />
+            <s:element minOccurs="1" maxOccurs="1" name="percentage" type="s:double" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CalculatePercentageResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CalculatePercentageResult" type="tns:ArrayOfDouble" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfDouble">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="double" type="s:double" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="GetAmount">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Amount" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetAmountResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GetAmountResult" type="s:decimal" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetDistanceCovered">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="FuelBought_Litres" type="s:double" />
+            <s:element minOccurs="1" maxOccurs="1" name="FuelConsumtion_MilesPerGallon" type="s:double" />
+            <s:element minOccurs="1" maxOccurs="1" name="LitresInGallon" type="s:double" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetDistanceCoveredResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GetDistanceCoveredResult" type="s:double" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="HelloWorldSoapIn">
+    <wsdl:part name="parameters" element="tns:HelloWorld" />
+  </wsdl:message>
+  <wsdl:message name="HelloWorldSoapOut">
+    <wsdl:part name="parameters" element="tns:HelloWorldResponse" />
+  </wsdl:message>
+  <wsdl:message name="CalculatePercentageSoapIn">
+    <wsdl:part name="parameters" element="tns:CalculatePercentage" />
+  </wsdl:message>
+  <wsdl:message name="CalculatePercentageSoapOut">
+    <wsdl:part name="parameters" element="tns:CalculatePercentageResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetAmountSoapIn">
+    <wsdl:part name="parameters" element="tns:GetAmount" />
+  </wsdl:message>
+  <wsdl:message name="GetAmountSoapOut">
+    <wsdl:part name="parameters" element="tns:GetAmountResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetDistanceCoveredSoapIn">
+    <wsdl:part name="parameters" element="tns:GetDistanceCovered" />
+  </wsdl:message>
+  <wsdl:message name="GetDistanceCoveredSoapOut">
+    <wsdl:part name="parameters" element="tns:GetDistanceCoveredResponse" />
+  </wsdl:message>
+  <wsdl:portType name="UtilitiesWSSoap">
+    <wsdl:operation name="HelloWorld">
+      <wsdl:input message="tns:HelloWorldSoapIn" />
+      <wsdl:output message="tns:HelloWorldSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CalculatePercentage">
+      <wsdl:input message="tns:CalculatePercentageSoapIn" />
+      <wsdl:output message="tns:CalculatePercentageSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAmount">
+      <wsdl:input message="tns:GetAmountSoapIn" />
+      <wsdl:output message="tns:GetAmountSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDistanceCovered">
+      <wsdl:input message="tns:GetDistanceCoveredSoapIn" />
+      <wsdl:output message="tns:GetDistanceCoveredSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="UtilitiesWSSoap" type="tns:UtilitiesWSSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="HelloWorld">
+      <soap:operation soapAction="http://tempuri.org/HelloWorld" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CalculatePercentage">
+      <soap:operation soapAction="http://tempuri.org/CalculatePercentage" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAmount">
+      <soap:operation soapAction="http://tempuri.org/GetAmount" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDistanceCovered">
+      <soap:operation soapAction="http://tempuri.org/GetDistanceCovered" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="UtilitiesWSSoap12" type="tns:UtilitiesWSSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="HelloWorld">
+      <soap12:operation soapAction="http://tempuri.org/HelloWorld" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CalculatePercentage">
+      <soap12:operation soapAction="http://tempuri.org/CalculatePercentage" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAmount">
+      <soap12:operation soapAction="http://tempuri.org/GetAmount" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDistanceCovered">
+      <soap12:operation soapAction="http://tempuri.org/GetDistanceCovered" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="UtilitiesWS">
+    <wsdl:port name="UtilitiesWSSoap" binding="tns:UtilitiesWSSoap">
+      <soap:address location="http://169.254.71.53:82/UtilitiesWS.asmx" />
+    </wsdl:port>
+    <wsdl:port name="UtilitiesWSSoap12" binding="tns:UtilitiesWSSoap12">
+      <soap12:address location="http://169.254.71.53:82/UtilitiesWS.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>
