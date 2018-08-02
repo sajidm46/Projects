@@ -1,0 +1,7 @@
+E:\Projects\trunk\Translator\UtilitiesWS\bin\UtilitiesWS.dll.config
+E:\Projects\trunk\Translator\UtilitiesWS\bin\UtilitiesWS.dll
+E:\Projects\trunk\Translator\UtilitiesWS\bin\UtilitiesWS.pdb
+E:\Projects\trunk\Translator\UtilitiesWS\obj\Debug\UtilitiesWS.csproj.CoreCompileInputs.cache
+E:\Projects\trunk\Translator\UtilitiesWS\obj\Debug\UtilitiesWS.dll
+E:\Projects\trunk\Translator\UtilitiesWS\obj\Debug\UtilitiesWS.pdb
+E:\Projects\trunk\Translator\UtilitiesWS\obj\Debug\UtilitiesWS.csprojAssemblyReference.cache
