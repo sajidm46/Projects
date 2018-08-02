@@ -1,0 +1,324 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BookPackage_BookingOptions" xml:space="preserve">
+    <value>Options de réservation</value>
+  </data>
+  <data name="BookPackage_MainHeader" xml:space="preserve">
+    <value>Réservez un forfait</value>
+  </data>
+  <data name="BookPackage_NoPackages" xml:space="preserve">
+    <value>Il n’y a pas de packages disponibles à cet endroit</value>
+  </data>
+  <data name="BookPackage_Number" xml:space="preserve">
+    <value>Nombre de personnes :</value>
+  </data>
+  <data name="BookPackage_PreferredTime" xml:space="preserve">
+    <value>Meilleur moment :</value>
+  </data>
+  <data name="BookPackage_SubHeader" xml:space="preserve">
+    <value>&lt;h2&gt;S’il vous plaît sélectionnez le package approprié ci-dessous&lt;/h2&gt; &lt;p&gt;Bienvenue sur notre service de réservations en ligne. Si vous avez des questions à l’aide de ce service puis veuillez contacter le club qui sera heureux de vous aider.&lt;/p&gt;</value>
+  </data>
+  <data name="General_AM" xml:space="preserve">
+    <value>AM</value>
+  </data>
+  <data name="General_Location" xml:space="preserve">
+    <value>Zone géographique :</value>
+  </data>
+  <data name="General_Package" xml:space="preserve">
+    <value>Forfait Spa :</value>
+  </data>
+  <data name="General_PM" xml:space="preserve">
+    <value>PM</value>
+  </data>
+  <data name="General_Price" xml:space="preserve">
+    <value>Prix :</value>
+  </data>
+  <data name="General_SearchResults" xml:space="preserve">
+    <value>Résulats de la recherche</value>
+  </data>
+  <data name="General_SearchSummary1" xml:space="preserve">
+    <value>{0:dddd dd MMMM yyyy hh:mm}, {1} personne</value>
+  </data>
+  <data name="General_SearchSummary2" xml:space="preserve">
+    <value>{0:dddd dd MMMM yyyy hh:mm}, {1} personnes</value>
+  </data>
+  <data name="PackageAcrossSites_MainHeader" xml:space="preserve">
+    <value>Spas disponibles- </value>
+  </data>
+  <data name="PackageCalendar_MainHeader" xml:space="preserve">
+    <value>Calendrier</value>
+  </data>
+  <data name="PackageCalendar_SubHeader" xml:space="preserve">
+    <value>Veuillez sélectionner une des dates disponibles en utilisant le calendrier ci-dessous.</value>
+  </data>
+  <data name="PackageGroups_Duration" xml:space="preserve">
+    <value>({0} min)</value>
+  </data>
+  <data name="General_Guest" xml:space="preserve">
+    <value>Commentaires {0}</value>
+  </data>
+  <data name="PackageGroups_ItemIncluded" xml:space="preserve">
+    <value>&lt;p class=\"highlight\"&gt; ce point est inclus&lt;/p&gt;</value>
+  </data>
+  <data name="PackageGroups_ItemsIncluded" xml:space="preserve">
+    <value>&lt;p class=\"highlight\"&gt; ces éléments sont inclus&lt;/p&gt;</value>
+  </data>
+  <data name="PackageGroups_MaxExceeded" xml:space="preserve">
+    <value>Commentaires {0} : vous avez sélectionné trop d’éléments, veuillez noter le maximum d’éléments {1}.</value>
+  </data>
+  <data name="PackageGroups_MinRequired" xml:space="preserve">
+    <value>Commentaires {0} : vous avez sélectionné des éléments trop peu, s’il vous plaît noter le minimum d’éléments {1}.</value>
+  </data>
+  <data name="PackageGroups_PerPerson" xml:space="preserve">
+    <value>{0:c} par personne</value>
+  </data>
+  <data name="PackageGroups_SelectItems" xml:space="preserve">
+    <value>&lt;p class=\"highlight\"&gt; s’il vous plaît sélectionnez {0} de ces éléments&lt;/p&gt;</value>
+  </data>
+  <data name="PackageGroups_SelectMaxItems" xml:space="preserve">
+    <value>&lt;p class=\"highlight\"&gt; s’il vous plaît sélectionner un ou plusieurs de ces éléments si nécessaire. (max {0})&lt;/p&gt;</value>
+  </data>
+  <data name="PackageGroups_SelectMaxOptionItems" xml:space="preserve">
+    <value>&lt;p class=\"highlight\"&gt; s’il vous plaît sélectionner un de ces éléments si nécessaire. (max {0})&lt;/p&gt;</value>
+  </data>
+  <data name="PackageGroups_SelectMinItems" xml:space="preserve">
+    <value>&lt;p class=\"highlight\"&gt; Veuillez sélectionner au moins {0} de ces éléments. (max {1})&lt;/p&gt;</value>
+  </data>
+  <data name="PackageGroups_SelectOptions" xml:space="preserve">
+    <value>Veuillez sélectionner les options de paquet pour chaque invité ci-dessous.</value>
+  </data>
+  <data name="PackageGroups_UpgradeOptions" xml:space="preserve">
+    <value>Propose des options de mise à niveau disponibles</value>
+  </data>
+  <data name="PackageOffers_MainHeader" xml:space="preserve">
+    <value>Disponibilité de jour de Spa</value>
+  </data>
+  <data name="PackageOffers_SubHeader" xml:space="preserve">
+    <value>Offres disponibles pour</value>
+  </data>
+  <data name="General_TotalGuests" xml:space="preserve">
+    <value>Nombre d’invités :</value>
+  </data>
+  <data name="PackageGuests_MainHeader" xml:space="preserve">
+    <value>PREMIERE RESERVATION?</value>
+  </data>
+  <data name="PackageGuests_SubHeader" xml:space="preserve">
+    <value>Package réservation pour {0} sur {1}</value>
+  </data>
+  <data name="PackagePerson_MainHeader" xml:space="preserve">
+    <value>Inscription détaillée : Commentaires {0}</value>
+  </data>
+  <data name="Preview_AgreeTerms" xml:space="preserve">
+    <value>Vous devez accepter les termes et conditions</value>
+  </data>
+  <data name="Preview_ConfirmGuests" xml:space="preserve">
+    <value>Veuillez vérifier que les détails pour chaque invité sont correctes.</value>
+  </data>
+  <data name="Preview_GuestDetails" xml:space="preserve">
+    <value>Détails de la réservation par convive</value>
+  </data>
+  <data name="Preview_MainHeader" xml:space="preserve">
+    <value>Aperçu</value>
+  </data>
+  <data name="Preview_SubHeader" xml:space="preserve">
+    <value>&lt;p&gt;S’il vous plaît consulter votre réservation et procéder pour confirmer votre réservation en acceptant nos termes et conditions et en cliquant sur le bouton J’accepte.&lt;/p&gt; &lt;p&gt;Après avoir confirmé votre réservation, votre carte de crédit sera débitée et un email sera immédiatement envoyé à vous avec une confirmation détaillée.&lt;/p&gt;</value>
+  </data>
+  <data name="Preview_Summary" xml:space="preserve">
+    <value>Résumé de paquet</value>
+  </data>
+  <data name="Preview_TandCPrompt" xml:space="preserve">
+    <value>Je suis d’accord aux conditions et modalités de réservation de {0}</value>
+  </data>
+  <data name="General_JoinNote" xml:space="preserve">
+    <value>Réservation de forfait en ligne</value>
+  </data>
+  <data name="PackagePerson_UseBooker" xml:space="preserve">
+    <value>Vous pouvez cocher cette case pour utiliser les mêmes coordonnées que l’invité principal</value>
+  </data>
+  <data name="Complete_BookingDetails" xml:space="preserve">
+    <value>Détails de la réservation</value>
+  </data>
+  <data name="Complete_BookingSummary" xml:space="preserve">
+    <value>Résumé de la réservation</value>
+  </data>
+  <data name="Complete_MainHeader" xml:space="preserve">
+    <value>Merci !</value>
+  </data>
+  <data name="Complete_StartTime" xml:space="preserve">
+    <value>Heure de départ :</value>
+  </data>
+  <data name="Complete_SubHeader" xml:space="preserve">
+    <value>&lt;h2&gt;Votre réservation est confirmée&lt;/h2&gt; &lt;p&gt;Vous recevrez un email de confirmation des détails ci-dessous. Veuillez imprimer cette page et apportez-la avec vous le jour de votre Spa.&lt;/p&gt; &lt;p&gt;Si avez des questions n’hésitent pas à nous contacter directement.&lt;/p&gt;</value>
+  </data>
+  <data name="General_MinStartTime" xml:space="preserve">
+    <value>Réservation doit être postérieure à {0:hh\:mm}</value>
+  </data>
+  <data name="PackageGuests_TandCs" xml:space="preserve">
+    <value>&lt;h2&gt;Réservation des termes et conditions&lt;/h2&gt; &lt;p&gt;&lt;strong&gt;Nominations&lt;/strong&gt; &lt; br /&gt; veuillez arriver au moins 15 minutes avant votre rendez-vous. Toutes les heures de rendez-vous incluent le temps de changer, de consultation et recommandations. Si vous êtes en retard pour votre rendez-vous, nous ne soyons pas en mesure d’effectuer le traitement complet. Arrivées tardives seront facturées dans son intégralité. &lt;/p&gt; &lt;p&gt;&lt;strong&gt;Annulation&lt;/strong&gt; &lt; br / &amp;gt; 24 heures avis de toute modification ou annulation évitera des frais d’annulation de 50 %.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Enfants&lt;/strong&gt; &lt; br / &amp;gt; age Minimum pour les traitements est de 16 ans.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Contre-indications&lt;/strong&gt; &lt; br / &amp;gt; certains traitements ne sont pas recommandés avec certaines conditions/antécédents médicaux ou de la grossesse. Traitements appropriés pendant la grossesse sont indiquées par leurs descriptions. Si vous souffrez d’une affection médicale ou avez des questions, veuillez nous contacter avant votre arrivée. Si vous avez eu n’importe quel passé ou des conditions actuelles ou des maladies, nous exigeons une lettre de recommandation de votre médecin généraliste. &lt;/p&gt; &lt; br / &amp;gt;</value>
+  </data>
+  <data name="ViewPackage_AdditionalGuests" xml:space="preserve">
+    <value>Invités additionnels :</value>
+  </data>
+  <data name="ViewPackage_Itinerary" xml:space="preserve">
+    <value>Itinéraire</value>
+  </data>
+  <data name="ViewPackage_LeadBooker" xml:space="preserve">
+    <value>Conduire le Booker :</value>
+  </data>
+  <data name="ViewPackage_MainHeader" xml:space="preserve">
+    <value>Package réservation</value>
+  </data>
+  <data name="ViewPackage_None" xml:space="preserve">
+    <value>Aucun</value>
+  </data>
+  <data name="General_VoucherAmount" xml:space="preserve">
+    <value>Montant du bon d’achat</value>
+  </data>
+  <data name="General_PaymentSummary" xml:space="preserve">
+    <value>Sommaire des versements</value>
+  </data>
+  <data name="Error_Package_NotWeb" xml:space="preserve">
+    <value>Ce paquet n’est pas disponible pour réservation via le site Internet.</value>
+  </data>
+  <data name="Error_Voucher_InconsistentItems" xml:space="preserve">
+    <value>Plusieurs pièces justificatives doivent être pour le même package</value>
+  </data>
+  <data name="Error_Voucher_Invalid" xml:space="preserve">
+    <value>Bon nombre de série {0} n’est pas valide</value>
+  </data>
+  <data name="Error_Voucher_NoItems" xml:space="preserve">
+    <value>Bon a pas attachés d’éléments. Ne peut pas décider quoi faire !</value>
+  </data>
+  <data name="Error_Voucher_NotPackage" xml:space="preserve">
+    <value>Bon nombre de série {0} n’est pas un bon paquet</value>
+  </data>
+  <data name="Error_Voucher_Required" xml:space="preserve">
+    <value>Aucun ID de Voucher est fourni</value>
+  </data>
+  <data name="Error_InvalidLink" xml:space="preserve">
+    <value>Lien vers cette page n’est pas valide. Doit fournir le Voucher ou Package ID</value>
+  </data>
+  <data name="Error_InvalidPackage" xml:space="preserve">
+    <value>Id de Package non valide fourni</value>
+  </data>
+  <data name="General_MaxStartTime" xml:space="preserve">
+    <value>Heure de début ne peut pas être postérieure à {0:hh\:mm}</value>
+  </data>
+</root>

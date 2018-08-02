@@ -1,0 +1,617 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Activity" xml:space="preserve">
+    <value>Activity</value>
+  </data>
+  <data name="Add" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="AmountPaid" xml:space="preserve">
+    <value>Amount Paid</value>
+  </data>
+  <data name="AmountToPay" xml:space="preserve">
+    <value>Amount to Be Paid</value>
+  </data>
+  <data name="Back" xml:space="preserve">
+    <value>Back</value>
+  </data>
+  <data name="BalanceDue" xml:space="preserve">
+    <value>Balance Due</value>
+  </data>
+  <data name="BalancePayment" xml:space="preserve">
+    <value>Balance needs to be paid in the centre on the party day.</value>
+  </data>
+  <data name="Book" xml:space="preserve">
+    <value>Book</value>
+  </data>
+  <data name="BookedAt" xml:space="preserve">
+    <value>Booked At</value>
+  </data>
+  <data name="BookedBy" xml:space="preserve">
+    <value>Booked By</value>
+  </data>
+  <data name="BookingReference" xml:space="preserve">
+    <value>Booking Reference</value>
+  </data>
+  <data name="By" xml:space="preserve">
+    <value>by</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Change" xml:space="preserve">
+    <value>Change</value>
+  </data>
+  <data name="ChargedToAccount" xml:space="preserve">
+    <value>Charged To Account</value>
+  </data>
+  <data name="Complete" xml:space="preserve">
+    <value>Complete</value>
+  </data>
+  <data name="Confirm" xml:space="preserve">
+    <value>Confirm</value>
+  </data>
+  <data name="ConfirmPassword" xml:space="preserve">
+    <value>Confirm Password:</value>
+  </data>
+  <data name="ConfirmPasswordRequired" xml:space="preserve">
+    <value>Please confirm your password</value>
+  </data>
+  <data name="ContinueWorking" xml:space="preserve">
+    <value>Continue Working</value>
+  </data>
+  <data name="Cost" xml:space="preserve">
+    <value>Cost:</value>
+  </data>
+  <data name="CustomerLogin" xml:space="preserve">
+    <value>Customer Login</value>
+  </data>
+  <data name="Date" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Description:</value>
+  </data>
+  <data name="DiscountTotal" xml:space="preserve">
+    <value>Total &lt;b&gt;(including Promotional Code Discount)&lt;/b&gt;</value>
+  </data>
+  <data name="Done" xml:space="preserve">
+    <value>Done</value>
+  </data>
+  <data name="EmailSent" xml:space="preserve">
+    <value>Email has been sent</value>
+  </data>
+  <data name="End" xml:space="preserve">
+    <value>End</value>
+  </data>
+  <data name="EnterPromo" xml:space="preserve">
+    <value>If you have a promotional code then please enter it in the box below</value>
+  </data>
+  <data name="ForgottenPassword" xml:space="preserve">
+    <value>Forgotten your password?</value>
+  </data>
+  <data name="GrandTotal" xml:space="preserve">
+    <value>Grand Total:</value>
+  </data>
+  <data name="GuardianWaiverAcceptance" xml:space="preserve">
+    <value>Online Jump Waiver Guardian Acceptance</value>
+  </data>
+  <data name="Including" xml:space="preserve">
+    <value>Including</value>
+  </data>
+  <data name="Item" xml:space="preserve">
+    <value>Item</value>
+  </data>
+  <data name="Location" xml:space="preserve">
+    <value>Location</value>
+  </data>
+  <data name="LoggedOut" xml:space="preserve">
+    <value>&lt;h2&gt;You have logged out successfully.&lt;/h2&gt;&lt;p&gt;Please use your existing username and password to access the Members area.&lt;/p&gt;</value>
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value>Log In</value>
+  </data>
+  <data name="LoginBlurb" xml:space="preserve">
+    <value>Welcome to our booking management service. You can use the username and password you were given during booking to complete your waivers before your arrival, as well as make any further bookings.</value>
+  </data>
+  <data name="Logout" xml:space="preserve">
+    <value>Logout</value>
+  </data>
+  <data name="MasterPageBox1" xml:space="preserve">
+    <value>You will only be able to jump at AirHop if you have completed our waiver. If you are under the age of 18 the waiver will need to be completed by a parent or legal guardian.</value>
+  </data>
+  <data name="MasterPageBox2" xml:space="preserve">
+    <value>THE MINIMUM AGE TO BOUNCE AT AIRHOP IS 5 AND OVER</value>
+  </data>
+  <data name="MasterPageBox3" xml:space="preserve">
+    <value>**Bristol** Please be aware that there are Height and Weight restrictions for the Wipe Out Zone. For more information, click here.</value>
+  </data>
+  <data name="MobileMenuHelp" xml:space="preserve">
+    <value>Thank you for using our mobile bookings website. If you have any issues with using the site then please let us know via the following contact methods</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Next" xml:space="preserve">
+    <value>Next</value>
+  </data>
+  <data name="NothingToPay" xml:space="preserve">
+    <value>Nothing to pay - no payment required.</value>
+  </data>
+  <data name="OnlineBooking" xml:space="preserve">
+    <value>Online Booking</value>
+  </data>
+  <data name="OnlinePayment" xml:space="preserve">
+    <value>Online Payment</value>
+  </data>
+  <data name="Pair" xml:space="preserve">
+    <value>Pair</value>
+  </data>
+  <data name="Participants" xml:space="preserve">
+    <value>Participants</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="PasswordMismatch" xml:space="preserve">
+    <value>Password confirmation doesn’t match. Please check your password.</value>
+  </data>
+  <data name="PasswordRequired" xml:space="preserve">
+    <value>Password is required</value>
+  </data>
+  <data name="Payment" xml:space="preserve">
+    <value>Payment</value>
+  </data>
+  <data name="PaymentConfirmation" xml:space="preserve">
+    <value>Payment Confirmation</value>
+  </data>
+  <data name="PaymentMethod" xml:space="preserve">
+    <value>Payment Method</value>
+  </data>
+  <data name="PaymentSuccessful" xml:space="preserve">
+    <value>Payment Successful!</value>
+  </data>
+  <data name="PleaseSelect" xml:space="preserve">
+    <value>-- Please Select --</value>
+  </data>
+  <data name="Powered" xml:space="preserve">
+    <value>Powered</value>
+  </data>
+  <data name="PoweredBy" xml:space="preserve">
+    <value>Powered by</value>
+  </data>
+  <data name="PrePayment" xml:space="preserve">
+    <value>Pre-Payment</value>
+  </data>
+  <data name="Price" xml:space="preserve">
+    <value>Price</value>
+  </data>
+  <data name="Processing" xml:space="preserve">
+    <value>Processing...</value>
+  </data>
+  <data name="Promo" xml:space="preserve">
+    <value>Promotional Code</value>
+  </data>
+  <data name="PromoText" xml:space="preserve">
+    <value>Do you have a promotional code or voucher?</value>
+  </data>
+  <data name="Purchase" xml:space="preserve">
+    <value>Purchase</value>
+  </data>
+  <data name="Qty" xml:space="preserve">
+    <value>Qty</value>
+  </data>
+  <data name="Quantity" xml:space="preserve">
+    <value>Quantity</value>
+  </data>
+  <data name="ReEnter" xml:space="preserve">
+    <value>Please re-enter your credentials</value>
+  </data>
+  <data name="Remove" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="RequiredFields" xml:space="preserve">
+    <value>* denotes required fields</value>
+  </data>
+  <data name="ReservationProcessing" xml:space="preserve">
+    <value>Please wait whilst your reservation is processed...</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="Select" xml:space="preserve">
+    <value>Select</value>
+  </data>
+  <data name="SelectDate" xml:space="preserve">
+    <value>Select Date:</value>
+  </data>
+  <data name="SelectLocation" xml:space="preserve">
+    <value>Select Location:</value>
+  </data>
+  <data name="SelectOption" xml:space="preserve">
+    <value>Select Option</value>
+  </data>
+  <data name="SelectPaymentMethod" xml:space="preserve">
+    <value>Please select your preferred Payment Method</value>
+  </data>
+  <data name="SessionDate" xml:space="preserve">
+    <value>Session Date:</value>
+  </data>
+  <data name="SessionTime" xml:space="preserve">
+    <value>Session Time:</value>
+  </data>
+  <data name="Sofort" xml:space="preserve">
+    <value>Sofort</value>
+  </data>
+  <data name="Start" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="Submit" xml:space="preserve">
+    <value>Submit</value>
+  </data>
+  <data name="Subtotal" xml:space="preserve">
+    <value>Subtotal</value>
+  </data>
+  <data name="Summary" xml:space="preserve">
+    <value>Summary</value>
+  </data>
+  <data name="TeamBlurb" xml:space="preserve">
+    <value>The {0} Team</value>
+  </data>
+  <data name="TimeoutWarning" xml:space="preserve">
+    <value>Warning. Your booking session is about to expire due to inactivity.</value>
+  </data>
+  <data name="TNSCheckout" xml:space="preserve">
+    <value>TNS Checkout</value>
+  </data>
+  <data name="ToPay" xml:space="preserve">
+    <value>To Pay:</value>
+  </data>
+  <data name="Total" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="TotalCost" xml:space="preserve">
+    <value>Total Cost:</value>
+  </data>
+  <data name="TotalDiscount" xml:space="preserve">
+    <value>Total Discount</value>
+  </data>
+  <data name="TotalPrice" xml:space="preserve">
+    <value>Total Price</value>
+  </data>
+  <data name="UnitPrice" xml:space="preserve">
+    <value>Unit Price</value>
+  </data>
+  <data name="Update" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="Username" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="UsernameRequired" xml:space="preserve">
+    <value>Email is required</value>
+  </data>
+  <data name="View" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="Voucher" xml:space="preserve">
+    <value>Voucher</value>
+  </data>
+  <data name="VoucherCode" xml:space="preserve">
+    <value>Voucher Code</value>
+  </data>
+  <data name="VoucherText" xml:space="preserve">
+    <value>If you have a voucher code then please enter it in the box below.</value>
+  </data>
+  <data name="WaiverDetails" xml:space="preserve">
+    <value>Participant Details</value>
+  </data>
+  <data name="WaiverMessage1" xml:space="preserve">
+    <value>Now that you're all booked in you have the opportunity to complete your waivers now in order to save time when you arrive. This greatly reduces check-in times.</value>
+  </data>
+  <data name="WaiverMessage2" xml:space="preserve">
+    <value>If you have some or all of the details to hand, then please click the Participants button below, this will take you to a page where you can enter their details and complete their waivers.</value>
+  </data>
+  <data name="WaiverMessage3" xml:space="preserve">
+    <value>If you don't have the details just now, then you can always login with the credentials that we have sent in your booking email and complete them at a later time.</value>
+  </data>
+  <data name="WaiverMessageMulti" xml:space="preserve">
+    <value>Your booking involves multiple reservations, so you will have fill in the participant details for each of these separately. Take a note of the booking references above, we'll take you to the first one, and then you can simply enter each of the booking references to complete the others.</value>
+  </data>
+  <data name="Welcome" xml:space="preserve">
+    <value>Welcome</value>
+  </data>
+  <data name="Working" xml:space="preserve">
+    <value>Working, please wait...</value>
+  </data>
+  <data name="GiroPay" xml:space="preserve">
+    <value>GiroPay</value>
+  </data>
+  <data name="PayPal" xml:space="preserve">
+    <value>PayPal</value>
+  </data>
+  <data name="LongDateFormat" xml:space="preserve">
+    <value>{0:dddd dd MMMM yyyy}</value>
+  </data>
+  <data name="PromoHeader" xml:space="preserve">
+    <value>Promotion Codes and Vouchers</value>
+  </data>
+  <data name="Send" xml:space="preserve">
+    <value>Send</value>
+  </data>
+  <data name="Spaces" xml:space="preserve">
+    <value>{0} Spaces</value>
+  </data>
+  <data name="Prepaid" xml:space="preserve">
+    <value>Prepaid</value>
+  </data>
+  <data name="Socks" xml:space="preserve">
+    <value>Socks</value>
+  </data>
+  <data name="DepositAmount" xml:space="preserve">
+    <value>50% Deposit : {0:c}</value>
+  </data>
+  <data name="FullAmount" xml:space="preserve">
+    <value>Full Amount : </value>
+  </data>
+  <data name="GoodAvailability" xml:space="preserve">
+    <value>Good Availability</value>
+  </data>
+  <data name="DiscountTotal2" xml:space="preserve">
+    <value>Discount Total</value>
+  </data>
+  <data name="BalanceDueDate" xml:space="preserve">
+    <value>Balance Due Date</value>
+  </data>
+  <data name="MemberAccountBalance" xml:space="preserve">
+    <value>Member Account Balance</value>
+  </data>
+  <data name="PreferredTime" xml:space="preserve">
+    <value>Preferred Time</value>
+  </data>
+  <data name="SecondHourTag" xml:space="preserve">
+    <value>- with second hour</value>
+  </data>
+  <data name="DiscountNote" xml:space="preserve">
+    <value>Discount [{0}]</value>
+  </data>
+  <data name="To" xml:space="preserve">
+    <value>to</value>
+  </data>
+  <data name="ABOUT" xml:space="preserve">
+    <value>OVER ONS</value>
+    <comment>OVER ONS</comment>
+  </data>
+  <data name="ACTIVITIES" xml:space="preserve">
+    <value>ACTIVITIES</value>
+    <comment>ACTIVITIES</comment>
+  </data>
+  <data name="CONTACT" xml:space="preserve">
+    <value>CONTACT</value>
+    <comment>CONTACT</comment>
+  </data>
+  <data name="EVENTS" xml:space="preserve">
+    <value>EVENTS</value>
+    <comment>EVENTS</comment>
+  </data>
+  <data name="FAQ" xml:space="preserve">
+    <value>FAQ</value>
+    <comment>FAQ</comment>
+  </data>
+  <data name="Parties" xml:space="preserve">
+    <value>Parties</value>
+    <comment>PARTIES</comment>
+  </data>
+  <data name="TERMSANDCONDITIONS" xml:space="preserve">
+    <value>TERMSANDCONDITIONS</value>
+    <comment>TERMSANDCONDITIONS</comment>
+  </data>
+  <data name="BOOKNOW" xml:space="preserve">
+    <value>BOOK NOW</value>
+    <comment>BOOK NOW</comment>
+  </data>
+  <data name="UpsellItemEmailFormat" xml:space="preserve">
+    <value>&lt;tr&gt;&lt;td&gt;{0} Purchased:&lt;/td&gt;&lt;td&gt;Qty: {1}, Total: {2:c} (@{3:c})&lt;/td&gt;&lt;/tr&gt;</value>
+  </data>
+  <data name="swipeAcross" xml:space="preserve">
+    <value>You may swipe across on mobile devices</value>
+  </data>
+  <data name="MultiWaiverInfo" xml:space="preserve">
+    <value>Listed below are boxes where you can fill out your participants details. Please complete names, dates of birth and whether or not you are the participants parent or guardian. Once finished please click the 'Next' button.</value>
+  </data>
+  <data name="Waivers" xml:space="preserve">
+    <value>Waivers</value>
+  </data>
+  <data name="BackTo" xml:space="preserve">
+    <value>Back To</value>
+  </data>
+  <data name="BookClassesNow" xml:space="preserve">
+    <value>Book Your Class Now</value>
+  </data>
+  <data name="BookPartyNow" xml:space="preserve">
+    <value>Book Your Party Now</value>
+  </data>
+  <data name="BookSessionNow" xml:space="preserve">
+    <value>Book Your Session Now</value>
+  </data>
+  <data name="Classes" xml:space="preserve">
+    <value>Classes</value>
+  </data>
+  <data name="DetailsUpToDate" xml:space="preserve">
+    <value>Keep your contact details up to date</value>
+  </data>
+  <data name="Homepage" xml:space="preserve">
+    <value>Homepage</value>
+  </data>
+  <data name="LoginToManage" xml:space="preserve">
+    <value>Log In &lt;span&gt;Login to manage your bookings&lt;/span&gt;</value>
+  </data>
+  <data name="ManageBookings" xml:space="preserve">
+    <value>Login to manage your bookings</value>
+  </data>
+  <data name="Menu" xml:space="preserve">
+    <value>Menu</value>
+  </data>
+  <data name="MyBookings" xml:space="preserve">
+    <value>My Bookings</value>
+  </data>
+  <data name="MyDetails" xml:space="preserve">
+    <value>MyDetails</value>
+  </data>
+  <data name="NavBackTo" xml:space="preserve">
+    <value>Navigate back to the</value>
+  </data>
+  <data name="NeedHelpBooking" xml:space="preserve">
+    <value>Do you need any help making your booking? Please contact us via one of the methods below.</value>
+  </data>
+  <data name="SelfService" xml:space="preserve">
+    <value>Self Service</value>
+  </data>
+  <data name="Sessions" xml:space="preserve">
+    <value>Sessions</value>
+  </data>
+  <data name="SignWaivers" xml:space="preserve">
+    <value>Sign your waivers before you arrive to save time at check-in</value>
+  </data>
+  <data name="SignWaiversOnArrival" xml:space="preserve">
+    <value>Allow your customers to complete their waivers on arrival</value>
+  </data>
+  <data name="SignWaiversPrintWristbands" xml:space="preserve">
+    <value>Allow your customers to complete their waivers and print their own wristbands</value>
+  </data>
+  <data name="ViewManage" xml:space="preserve">
+    <value>View and manage your upcoming bookings</value>
+  </data>
+  <data name="Vouchers" xml:space="preserve">
+    <value>Vouchers</value>
+  </data>
+  <data name="VouchersAvailable" xml:space="preserve">
+    <value>Monetary vouchers available</value>
+  </data>
+  <data name="WaiverStation" xml:space="preserve">
+    <value>Waiver Station</value>
+  </data>
+  <data name="PaymentSummary" xml:space="preserve">
+    <value>Payment Summary</value>
+  </data>
+</root>

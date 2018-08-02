@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="General_AM" xml:space="preserve">
+    <value>AM</value>
+  </data>
+  <data name="General_DisplayingItems" xml:space="preserve">
+    <value>Visning av {0} - {1} i {2}</value>
+  </data>
+  <data name="General_Error_InvalidBookingStartDate" xml:space="preserve">
+    <value>Bokning startdatumet är ogiltigt.</value>
+  </data>
+  <data name="General_Error_NoBEGroups" xml:space="preserve">
+    <value>Inte vara tillgängliga för klienten</value>
+  </data>
+  <data name="General_Error_NoBEsForGroup" xml:space="preserve">
+    <value>Några bokningsbara entiteter för närvarande tillgänglig för utvalda grupper</value>
+  </data>
+  <data name="General_Page" xml:space="preserve">
+    <value>Sida:</value>
+  </data>
+  <data name="General_PM" xml:space="preserve">
+    <value>PM</value>
+  </data>
+  <data name="Book_BESearchString" xml:space="preserve">
+    <value>Health Club bokningar</value>
+  </data>
+  <data name="Book_MainHeader" xml:space="preserve">
+    <value>Bok Health Club</value>
+  </data>
+  <data name="Book_SubHeader" xml:space="preserve">
+    <value>&lt;p&gt;Välkommen till vår online bokningar tjänst. Om du har några problem med denna tjänst sedan kontakta klubben som kommer gärna att hjälpa till.&lt;/p&gt;</value>
+  </data>
+  <data name="Book_PreferredTime" xml:space="preserve">
+    <value>Rekommenderad tid:</value>
+  </data>
+  <data name="Book_SelectBookingType" xml:space="preserve">
+    <value>Välj Bokningstyp:</value>
+  </data>
+  <data name="Book_DefaultStartTime" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Book_PanelHeader" xml:space="preserve">
+    <value>Bokningsalternativ</value>
+  </data>
+  <data name="General_Error_NoGroupSelected" xml:space="preserve">
+    <value>Ingen grupp valt</value>
+  </data>
+  <data name="Calendar_MainHeader" xml:space="preserve">
+    <value>Kalender</value>
+  </data>
+  <data name="Calendar_NotAvailableMessage" xml:space="preserve">
+    <value>Ledsen {0} på {1} finns inte på detta datum. Välj ett nytt datum från kalendern nedan som visar alla datum som vi kan uppfylla din begäran.</value>
+  </data>
+  <data name="General_Error_InvalidBE" xml:space="preserve">
+    <value>Bokning konfigurationsfel - Vänligen kontrollera webb bokning stil: {0}</value>
+  </data>
+  <data name="Offers_Duration" xml:space="preserve">
+    <value>Längd</value>
+  </data>
+  <data name="Offers_MainHeader" xml:space="preserve">
+    <value>Välj tid</value>
+  </data>
+  <data name="Offers_NoBookings" xml:space="preserve">
+    <value>Inga bokningar finns tillgängliga under denna tid.</value>
+  </data>
+  <data name="Offers_NotAvailable" xml:space="preserve">
+    <value>Tyvärr din Rekommenderad tid/datum är inte tillgängligt, Välj vänligen ett alternativ nedan.</value>
+  </data>
+  <data name="Offers_Price" xml:space="preserve">
+    <value>Pris</value>
+  </data>
+  <data name="Offers_Select" xml:space="preserve">
+    <value>Välj</value>
+  </data>
+  <data name="Offers_SelectOffer" xml:space="preserve">
+    <value>Vänligen välj ett erbjudande</value>
+  </data>
+  <data name="Offers_Start" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="Offers_StartTime" xml:space="preserve">
+    <value>Starttid</value>
+  </data>
+  <data name="ClientDetails_MainHeader" xml:space="preserve">
+    <value>Dina uppgifter</value>
+  </data>
+  <data name="ClientDetails_SummaryHeader" xml:space="preserve">
+    <value>Din bokning Sammanfattning</value>
+  </data>
+  <data name="Preview_MainHeader" xml:space="preserve">
+    <value>Bokning förhandsgranskning</value>
+  </data>
+  <data name="Preview_SubHeader" xml:space="preserve">
+    <value>&lt;p&gt;Vänligen granska din bokning och fortsätta att bekräfta din bokning genom att acceptera våra villkor och förhållanden och att klicka på knappen acceptera.&lt;/p&gt; &lt;p&gt;På bekräfta din bokning, ditt kreditkort kommer att debiteras och ett mail kommer omedelbart att skickas till dig med en detaljerad bekräftelse.&lt;/p&gt;</value>
+  </data>
+  <data name="Preview_TandCHeader" xml:space="preserve">
+    <value>Bokningsvillkor</value>
+  </data>
+  <data name="Preview_TandCPrompt" xml:space="preserve">
+    <value>Jag håller med om att {0} bokningsvillkor</value>
+  </data>
+  <data name="General_Booking" xml:space="preserve">
+    <value>Bokning: {0}</value>
+  </data>
+  <data name="General_BookingRef" xml:space="preserve">
+    <value>Bokning referens: {0}</value>
+  </data>
+  <data name="General_DiscountedCost" xml:space="preserve">
+    <value>Rabatt: {0:c}</value>
+  </data>
+  <data name="General_Location" xml:space="preserve">
+    <value>AirHop: {0}</value>
+  </data>
+  <data name="General_StartTime" xml:space="preserve">
+    <value>Bokningsdatum: {0: dddd dd MMMM yyyy HH:mm}</value>
+  </data>
+  <data name="General_TotalCost" xml:space="preserve">
+    <value>Totalt: {0:c}</value>
+  </data>
+  <data name="General_MinStartTime" xml:space="preserve">
+    <value>Bokningen måste starta efter {0:hh:mm}.</value>
+  </data>
+  <data name="Complete_MainHeader" xml:space="preserve">
+    <value>Komplett!</value>
+  </data>
+  <data name="Complete_SubHeader" xml:space="preserve">
+    <value>&lt;p&gt;Tack! Din bokning är bekräftad&lt;/p&gt; &lt;p&gt;du får inom kort ett e-postmeddelande för att bekräfta att du är detaljer.&lt;/p&gt; &lt;p&gt;Bör ha någon frågor tveka inte att kontakta oss direkt.&lt;/p&gt;</value>
+  </data>
+  <data name="Complete_TheTeam" xml:space="preserve">
+    <value>Teamet {0}</value>
+  </data>
+  <data name="General_BookingSummary" xml:space="preserve">
+    <value>Bokning Sammanfattning</value>
+  </data>
+  <data name="General_PaymentSummary" xml:space="preserve">
+    <value>Betalning Sammanfattning</value>
+  </data>
+</root>

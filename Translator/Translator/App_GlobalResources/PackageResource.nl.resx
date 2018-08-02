@@ -1,0 +1,324 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BookPackage_BookingOptions" xml:space="preserve">
+    <value>Alle boekingsmogelijkheden</value>
+  </data>
+  <data name="BookPackage_MainHeader" xml:space="preserve">
+    <value>Boek een pakket</value>
+  </data>
+  <data name="BookPackage_NoPackages" xml:space="preserve">
+    <value>Daar er geen pakketten beschikbaar op deze locatie</value>
+  </data>
+  <data name="BookPackage_Number" xml:space="preserve">
+    <value>Aantal personen:</value>
+  </data>
+  <data name="BookPackage_PreferredTime" xml:space="preserve">
+    <value>Voorkeur tijd:</value>
+  </data>
+  <data name="BookPackage_SubHeader" xml:space="preserve">
+    <value>&lt;h2&gt;Selecteer het juiste pakket hieronder&lt;/h2&gt; &lt;p&gt;Welkom bij onze on-line reserveringen service. Als u problemen met deze service hebt neem dan contact met de club die zullen helpen u graag.&lt;/p&gt;</value>
+  </data>
+  <data name="General_AM" xml:space="preserve">
+    <value>AM</value>
+  </data>
+  <data name="General_Location" xml:space="preserve">
+    <value>Locatie:</value>
+  </data>
+  <data name="General_Package" xml:space="preserve">
+    <value>Spa-arrangement:</value>
+  </data>
+  <data name="General_PM" xml:space="preserve">
+    <value>PM</value>
+  </data>
+  <data name="General_Price" xml:space="preserve">
+    <value>Prijs:</value>
+  </data>
+  <data name="General_SearchResults" xml:space="preserve">
+    <value>Zoekresultaten voor</value>
+  </data>
+  <data name="General_SearchSummary1" xml:space="preserve">
+    <value>{0:dddd dd, MMMM yyyy hh:mm tt}, {1} persoon</value>
+  </data>
+  <data name="General_SearchSummary2" xml:space="preserve">
+    <value>{0:dddd dd, MMMM yyyy hh:mm tt}, {1} mensen</value>
+  </data>
+  <data name="PackageAcrossSites_MainHeader" xml:space="preserve">
+    <value>Beschikbaar kuuroorden- </value>
+  </data>
+  <data name="PackageCalendar_MainHeader" xml:space="preserve">
+    <value>Kalender</value>
+  </data>
+  <data name="PackageCalendar_SubHeader" xml:space="preserve">
+    <value>Gelieve te selecteren één van de beschikbare data met behulp van de onderstaande kalender.</value>
+  </data>
+  <data name="PackageGroups_Duration" xml:space="preserve">
+    <value>({0} min)</value>
+  </data>
+  <data name="General_Guest" xml:space="preserve">
+    <value>Gast {0}</value>
+  </data>
+  <data name="PackageGroups_ItemIncluded" xml:space="preserve">
+    <value>&lt;p class=\"highlight\"&gt; dit item is opgenomen&lt;/p&gt;</value>
+  </data>
+  <data name="PackageGroups_ItemsIncluded" xml:space="preserve">
+    <value>&lt;p class=\"highlight\"&gt; deze items zijn opgenomen&lt;/p&gt;</value>
+  </data>
+  <data name="PackageGroups_MaxExceeded" xml:space="preserve">
+    <value>Gast {0}: U hebt te veel objecten geselecteerd, Let op de maximale {1} items.</value>
+  </data>
+  <data name="PackageGroups_MinRequired" xml:space="preserve">
+    <value>Gast {0}: hebt u te weinig items geselecteerd, Let op: het minimum van {1} items.</value>
+  </data>
+  <data name="PackageGroups_PerPerson" xml:space="preserve">
+    <value>{0:c} per persoon</value>
+  </data>
+  <data name="PackageGroups_SelectItems" xml:space="preserve">
+    <value>&lt;p class=\"highlight\"&gt; Selecteer {0} van deze items&lt;/p&gt;</value>
+  </data>
+  <data name="PackageGroups_SelectMaxItems" xml:space="preserve">
+    <value>&lt;p class=\"highlight\"&gt; gelieve te selecteren een of meer van deze items, indien nodig. (max) {0}&lt;/p&gt;</value>
+  </data>
+  <data name="PackageGroups_SelectMaxOptionItems" xml:space="preserve">
+    <value>&lt;p class=\"highlight\" &gt; gelieve te selecteren één van deze items indien nodig. (max) {0}&lt;/p&gt;</value>
+  </data>
+  <data name="PackageGroups_SelectMinItems" xml:space="preserve">
+    <value>&lt;p class=\"highlight\" &gt; Selecteer wordt ten minste {0} van deze items. (max) {1}&lt;/p&gt;</value>
+  </data>
+  <data name="PackageGroups_SelectOptions" xml:space="preserve">
+    <value>Selecteer de opties pakket voor elke gast hieronder.</value>
+  </data>
+  <data name="PackageGroups_UpgradeOptions" xml:space="preserve">
+    <value>Voorgestelde beschikbare upgradeopties</value>
+  </data>
+  <data name="PackageOffers_MainHeader" xml:space="preserve">
+    <value>Spa dag beschikbaarheid</value>
+  </data>
+  <data name="PackageOffers_SubHeader" xml:space="preserve">
+    <value>Beschikbare aanbiedingen voor</value>
+  </data>
+  <data name="General_TotalGuests" xml:space="preserve">
+    <value>Aantal gasten:</value>
+  </data>
+  <data name="PackageGuests_MainHeader" xml:space="preserve">
+    <value>Uw gegevens</value>
+  </data>
+  <data name="PackageGuests_SubHeader" xml:space="preserve">
+    <value>Pakket boeken van {0} op {1}</value>
+  </data>
+  <data name="PackagePerson_MainHeader" xml:space="preserve">
+    <value>Gespecificeerde reservatie: Gast {0}</value>
+  </data>
+  <data name="Preview_AgreeTerms" xml:space="preserve">
+    <value>U moet akkoord gaan met de voorwaarden en bepalingen</value>
+  </data>
+  <data name="Preview_ConfirmGuests" xml:space="preserve">
+    <value>Bevestig dat de details voor elke gast kloppen.</value>
+  </data>
+  <data name="Preview_GuestDetails" xml:space="preserve">
+    <value>Details boeking voor elke gast</value>
+  </data>
+  <data name="Preview_MainHeader" xml:space="preserve">
+    <value>Voorbeeld</value>
+  </data>
+  <data name="Preview_SubHeader" xml:space="preserve">
+    <value>&lt;p&gt;Controleer uw boeking en gaat u verder met het bevestigen van uw reservering door onze voorwaarden te accepteren en voorwaarden en te klikken op de knop accepteren.&lt;/p&gt; &lt;p&gt;Op de bevestiging van uw boeking, uw creditcard wordt afgeschreven en een e-mail zal onmiddellijk worden verzonden naar u met een gedetailleerde bevestiging.&lt;/p&gt;</value>
+  </data>
+  <data name="Preview_Summary" xml:space="preserve">
+    <value>Pakket Summary</value>
+  </data>
+  <data name="Preview_TandCPrompt" xml:space="preserve">
+    <value>Ik ben het eens met {0} reservering voorwaarden</value>
+  </data>
+  <data name="General_JoinNote" xml:space="preserve">
+    <value>Online pakket boeken</value>
+  </data>
+  <data name="PackagePerson_UseBooker" xml:space="preserve">
+    <value>U kan Vink dit vakje als u wilt de dezelfde gegevens gebruiken als hoofd gast</value>
+  </data>
+  <data name="Complete_BookingDetails" xml:space="preserve">
+    <value>Details boeking</value>
+  </data>
+  <data name="Complete_BookingSummary" xml:space="preserve">
+    <value>Boeken overzicht</value>
+  </data>
+  <data name="Complete_MainHeader" xml:space="preserve">
+    <value>Dank u!</value>
+  </data>
+  <data name="Complete_StartTime" xml:space="preserve">
+    <value>Starttijd:</value>
+  </data>
+  <data name="Complete_SubHeader" xml:space="preserve">
+    <value>&lt;h2&gt;Uw boeking is bevestigd&lt;/h2&gt; &lt;p&gt;u ontvangt binnenkort een e-mailbevestiging van de details hieronder. Gelieve print deze pagina en breng het met u op uw Spa dag.&lt;/p&gt; &lt;p&gt;Moeten een vragen aarzel niet om ons te contacteren direct.&lt;/p&gt;</value>
+  </data>
+  <data name="General_MinStartTime" xml:space="preserve">
+    <value>Reservering moet uiterlijk {0:hh\:mm}</value>
+  </data>
+  <data name="PackageGuests_TandCs" xml:space="preserve">
+    <value>&lt;h2&gt;Reservering voorwaarden&lt;/h2&gt; &lt;p&gt;&lt;strong&gt;Afspraken&lt;/strong&gt; &lt; br / &gt; gelieve te komen ten minste 15 minuten voor uw afspraak. Tijden van alle afspraken zijn tijd om te veranderen, overleg en aanbevelingen. Bent u laat voor uw afspraak, wij mogelijk niet kunnen uitvoeren van de volledige behandeling. Late aankomst wordt volledig aangerekend. &lt;/p&gt; &lt;p&gt;&lt;strong&gt;Annulering&lt;/strong&gt; &lt; br / &gt; 24 uur bericht van eventuele wijzigingen of annuleringen zullen vermijden een 50% annuleringskosten.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Kinderen&lt;/strong&gt; &lt; br / &gt; minimumleeftijd voor behandelingen is 16 jaar.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Contra-indicaties&lt;/strong&gt; &lt; br / &gt; sommige behandelingen worden niet aanbevolen met bepaalde medische voorwaarden/geschiedenis of zwangerschap. Behandelingen geschikt tijdens de zwangerschap worden aangeduid met hun beschrijvingen. Als u aan een medische aandoening lijdt of vragen hebt, neem contact met ons op voor uw aankomst. We kunnen verzoeken om een verwijsbrief van uw Huisarts als u had verleden of de huidige voorwaarden of ziekten. &lt;/p&gt; &lt; br / &gt;</value>
+  </data>
+  <data name="ViewPackage_AdditionalGuests" xml:space="preserve">
+    <value>Extra gasten:</value>
+  </data>
+  <data name="ViewPackage_Itinerary" xml:space="preserve">
+    <value>Route</value>
+  </data>
+  <data name="ViewPackage_LeadBooker" xml:space="preserve">
+    <value>Booker leiden:</value>
+  </data>
+  <data name="ViewPackage_MainHeader" xml:space="preserve">
+    <value>Pakket boeken</value>
+  </data>
+  <data name="ViewPackage_None" xml:space="preserve">
+    <value>Geen</value>
+  </data>
+  <data name="General_VoucherAmount" xml:space="preserve">
+    <value>Bedrag van de Bon</value>
+  </data>
+  <data name="General_PaymentSummary" xml:space="preserve">
+    <value>Samenvatting van de betaling</value>
+  </data>
+  <data name="Error_Package_NotWeb" xml:space="preserve">
+    <value>Dit pakket is niet beschikbaar voor reservering via de website.</value>
+  </data>
+  <data name="Error_Voucher_InconsistentItems" xml:space="preserve">
+    <value>Meerdere Vouchers moeten voor hetzelfde pakket worden</value>
+  </data>
+  <data name="Error_Voucher_Invalid" xml:space="preserve">
+    <value>Waardebon serienummer {0} is ongeldig</value>
+  </data>
+  <data name="Error_Voucher_NoItems" xml:space="preserve">
+    <value>Bon heeft geen objecten gekoppeld. Kan niet beslissen wat te doen!</value>
+  </data>
+  <data name="Error_Voucher_NotPackage" xml:space="preserve">
+    <value>Waardebon serienummer {0} is niet een pakket voucher</value>
+  </data>
+  <data name="Error_Voucher_Required" xml:space="preserve">
+    <value>Geen Voucher id's kopen</value>
+  </data>
+  <data name="Error_InvalidLink" xml:space="preserve">
+    <value>Link naar deze pagina is ongeldig. Voucher of pakket-id moet opgeven</value>
+  </data>
+  <data name="Error_InvalidPackage" xml:space="preserve">
+    <value>Ongeldige pakket Id kopen</value>
+  </data>
+  <data name="General_MaxStartTime" xml:space="preserve">
+    <value>Begintijd kan niet later dan {0:hh\:mm}</value>
+  </data>
+</root>

@@ -1,0 +1,324 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BookPackage_BookingOptions" xml:space="preserve">
+    <value>Bokningsalternativ</value>
+  </data>
+  <data name="BookPackage_MainHeader" xml:space="preserve">
+    <value>Boka ett paket</value>
+  </data>
+  <data name="BookPackage_NoPackages" xml:space="preserve">
+    <value>Det finns inga paket tillgängliga på den här platsen</value>
+  </data>
+  <data name="BookPackage_Number" xml:space="preserve">
+    <value>Antal personer:</value>
+  </data>
+  <data name="BookPackage_PreferredTime" xml:space="preserve">
+    <value>Rekommenderad tid:</value>
+  </data>
+  <data name="BookPackage_SubHeader" xml:space="preserve">
+    <value>&lt;h2&gt;Vänligen välj lämpligt paket nedan&lt;/h2&gt; &lt;p&gt;Välkommen till vår on-line bokningar tjänst. Om du har några problem att använda denna tjänst då vänligen kontakta klubben som kommer att vara glada att hjälpa.&lt;/p&gt;</value>
+  </data>
+  <data name="General_AM" xml:space="preserve">
+    <value>AM</value>
+  </data>
+  <data name="General_Location" xml:space="preserve">
+    <value>Plats:</value>
+  </data>
+  <data name="General_Package" xml:space="preserve">
+    <value>Spa-paket:</value>
+  </data>
+  <data name="General_PM" xml:space="preserve">
+    <value>PM</value>
+  </data>
+  <data name="General_Price" xml:space="preserve">
+    <value>Pris:</value>
+  </data>
+  <data name="General_SearchResults" xml:space="preserve">
+    <value>Sökresultat för</value>
+  </data>
+  <data name="General_SearchSummary1" xml:space="preserve">
+    <value>{0:dddd dd, MMMM yyyy hh:mm tt}, {1} Person</value>
+  </data>
+  <data name="General_SearchSummary2" xml:space="preserve">
+    <value>{0:dddd dd, MMMM yyyy hh:mm tt}, {1} personer</value>
+  </data>
+  <data name="PackageAcrossSites_MainHeader" xml:space="preserve">
+    <value>Tillgängliga Spas- </value>
+  </data>
+  <data name="PackageCalendar_MainHeader" xml:space="preserve">
+    <value>Kalender</value>
+  </data>
+  <data name="PackageCalendar_SubHeader" xml:space="preserve">
+    <value>Vänligen välj ett av de tillgängliga datum i kalendern nedan.</value>
+  </data>
+  <data name="PackageGroups_Duration" xml:space="preserve">
+    <value>({0} min)</value>
+  </data>
+  <data name="General_Guest" xml:space="preserve">
+    <value>Guest {0}</value>
+  </data>
+  <data name="PackageGroups_ItemIncluded" xml:space="preserve">
+    <value>&lt;p class=\"highlight\"&gt; den här artikeln ingår&lt;/p&gt;</value>
+  </data>
+  <data name="PackageGroups_ItemsIncluded" xml:space="preserve">
+    <value>&lt;p class=\"highlight\"&gt; dessa poster ingår&lt;/p&gt;</value>
+  </data>
+  <data name="PackageGroups_MaxExceeded" xml:space="preserve">
+    <value>Guest {0}: du har markerat för många objekt, Observera högst {1} objekt.</value>
+  </data>
+  <data name="PackageGroups_MinRequired" xml:space="preserve">
+    <value>Guest {0}: du har valt för få artiklar, Observera minst {1} objekt.</value>
+  </data>
+  <data name="PackageGroups_PerPerson" xml:space="preserve">
+    <value>{0} per Person</value>
+  </data>
+  <data name="PackageGroups_SelectItems" xml:space="preserve">
+    <value>&lt;p class=\"highlight\"&gt; Vänligen välj {0} av dessa objekt&lt;/p&gt;</value>
+  </data>
+  <data name="PackageGroups_SelectMaxItems" xml:space="preserve">
+    <value>&lt;p class=\"highlight\"&gt; Vänligen välj en eller flera av dessa objekt om det behövs. (max {0})&lt;/p&gt;</value>
+  </data>
+  <data name="PackageGroups_SelectMaxOptionItems" xml:space="preserve">
+    <value>&lt;p class=\"highlight\"&gt; Vänligen välj ett av dessa objekt om det behövs. (max {0})&lt;/p&gt;</value>
+  </data>
+  <data name="PackageGroups_SelectMinItems" xml:space="preserve">
+    <value>&lt;p class=\"highlight\"&gt; V├ñlj minst {0} av dessa objekt. (max {1})&lt;/p&gt;</value>
+  </data>
+  <data name="PackageGroups_SelectOptions" xml:space="preserve">
+    <value>Vänligen välj paketalternativ för varje gäst nedan.</value>
+  </data>
+  <data name="PackageGroups_UpgradeOptions" xml:space="preserve">
+    <value>Föreslagna tillgängliga uppgraderingsalternativ</value>
+  </data>
+  <data name="PackageOffers_MainHeader" xml:space="preserve">
+    <value>Tillgänglighet för Spa-dag</value>
+  </data>
+  <data name="PackageOffers_SubHeader" xml:space="preserve">
+    <value>Tillgängliga erbjudanden för</value>
+  </data>
+  <data name="General_TotalGuests" xml:space="preserve">
+    <value>Antal gäster:</value>
+  </data>
+  <data name="PackageGuests_MainHeader" xml:space="preserve">
+    <value>Dina uppgifter</value>
+  </data>
+  <data name="PackageGuests_SubHeader" xml:space="preserve">
+    <value>Paketet bokning för {0} på {1}</value>
+  </data>
+  <data name="PackagePerson_MainHeader" xml:space="preserve">
+    <value>Specificerade bokning: Guest {0}</value>
+  </data>
+  <data name="Preview_AgreeTerms" xml:space="preserve">
+    <value>Du måste godkänna villkoren</value>
+  </data>
+  <data name="Preview_ConfirmGuests" xml:space="preserve">
+    <value>Bekräfta informationen för varje gäst är korrekta.</value>
+  </data>
+  <data name="Preview_GuestDetails" xml:space="preserve">
+    <value>Bokningsuppgifter för varje gäst</value>
+  </data>
+  <data name="Preview_MainHeader" xml:space="preserve">
+    <value>Förhandsgranska</value>
+  </data>
+  <data name="Preview_SubHeader" xml:space="preserve">
+    <value>&lt;p&gt;Vänligen granska din bokning och fortsätta att bekräfta din bokning genom att acceptera våra villkor och förhållanden och att klicka på knappen acceptera.&lt;/p&gt; &lt;p&gt;På bekräfta din bokning, ditt kreditkort kommer att debiteras och ett mail kommer omedelbart att skickas till dig med en detaljerad bekräftelse.&lt;/p&gt;</value>
+  </data>
+  <data name="Preview_Summary" xml:space="preserve">
+    <value>Paketet Sammanfattning</value>
+  </data>
+  <data name="Preview_TandCPrompt" xml:space="preserve">
+    <value>Jag håller med om att {0} bokningsvillkor</value>
+  </data>
+  <data name="General_JoinNote" xml:space="preserve">
+    <value>Online paketbokning</value>
+  </data>
+  <data name="PackagePerson_UseBooker" xml:space="preserve">
+    <value>Du kan kryssa i denna box om du vill använda samma kontaktuppgifter som huvud gäst</value>
+  </data>
+  <data name="Complete_BookingDetails" xml:space="preserve">
+    <value>Bokningsuppgifter</value>
+  </data>
+  <data name="Complete_BookingSummary" xml:space="preserve">
+    <value>Bokningsöversikt</value>
+  </data>
+  <data name="Complete_MainHeader" xml:space="preserve">
+    <value>Tack!</value>
+  </data>
+  <data name="Complete_StartTime" xml:space="preserve">
+    <value>Starttid:</value>
+  </data>
+  <data name="Complete_SubHeader" xml:space="preserve">
+    <value>&lt;h2&gt;Din bokning är bekräftad&lt;/h2&gt; &lt;p&gt;Du får inom kort ett bekräftelsemail detaljer nedan. Skriv ut sidan och ta med dig på din Spa-dag.&lt;/p&gt; &lt;p&gt;Bör ha någon frågor tveka inte att kontakta oss direkt.&lt;/p&gt;</value>
+  </data>
+  <data name="General_MinStartTime" xml:space="preserve">
+    <value>Bokningen måste vara senare än {0:hh\:mm}</value>
+  </data>
+  <data name="PackageGuests_TandCs" xml:space="preserve">
+    <value>&lt;h2&gt;Bokning resevillkor&lt;/h2&gt; &lt;p&gt;&lt;strong&gt;Avtalade tider&lt;/strong&gt; &lt; br / &gt; vänligen anlända minst 15 minuter före ditt möte. Alla tider har tid att ändra, samråd och rekommendationer. Om du är sent för din tid, kan vi inte att kunna utföra full behandling. Sen ankomst kommer att debiteras i sin helhet. &lt;/p&gt; &lt;p&gt;&lt;strong&gt;Avbokning&lt;/strong&gt; &lt; br / &gt; 24 timmar meddelande om eventuella ändringar eller avbokningar kommer att undvika en 50% avbokningsavgift.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Barn&lt;/strong&gt; &lt; br / &gt; minimiålder för behandlingar är 16 år.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Kontraindikationer&lt;/strong&gt; &lt; br / &gt; vissa behandlingar rekommenderas inte med vissa villkor/sjukdomshistoria eller graviditet. Behandlingar som är lämplig under graviditeten anges med deras beskrivningar. Om du lider av ett medicinskt tillstånd eller har några frågor, vänligen kontakta oss före din ankomst. Vi kan kräva en remiss brev från din husläkare om du har haft några tidigare eller nuvarande villkor eller sjukdomar. &lt;/p&gt; &lt; br / &gt;</value>
+  </data>
+  <data name="ViewPackage_AdditionalGuests" xml:space="preserve">
+    <value>Ytterligare gäster:</value>
+  </data>
+  <data name="ViewPackage_Itinerary" xml:space="preserve">
+    <value>Resväg</value>
+  </data>
+  <data name="ViewPackage_LeadBooker" xml:space="preserve">
+    <value>Leda Booker:</value>
+  </data>
+  <data name="ViewPackage_MainHeader" xml:space="preserve">
+    <value>Paketbokning</value>
+  </data>
+  <data name="ViewPackage_None" xml:space="preserve">
+    <value>Ingen</value>
+  </data>
+  <data name="General_VoucherAmount" xml:space="preserve">
+    <value>Verifikationen belopp</value>
+  </data>
+  <data name="General_PaymentSummary" xml:space="preserve">
+    <value>Betalning Sammanfattning</value>
+  </data>
+  <data name="Error_Package_NotWeb" xml:space="preserve">
+    <value>Detta paket är inte tillgänglig för bokning via hemsidan.</value>
+  </data>
+  <data name="Error_Voucher_InconsistentItems" xml:space="preserve">
+    <value>Flera kuponger måste vara för samma paket</value>
+  </data>
+  <data name="Error_Voucher_Invalid" xml:space="preserve">
+    <value>Verifikationen serienummer {0} är ogiltig</value>
+  </data>
+  <data name="Error_Voucher_NoItems" xml:space="preserve">
+    <value>Verifikationen har inga artiklar som är kopplade. Kan inte bestämma vad jag ska göra!</value>
+  </data>
+  <data name="Error_Voucher_NotPackage" xml:space="preserve">
+    <value>Verifikationen serienummer {0} är inte en paketet kupong</value>
+  </data>
+  <data name="Error_Voucher_Required" xml:space="preserve">
+    <value>Ingen Voucher ID levereras</value>
+  </data>
+  <data name="Error_InvalidLink" xml:space="preserve">
+    <value>Länk till denna sida är ogiltig. Måste lämna Voucher eller paket-ID</value>
+  </data>
+  <data name="Error_InvalidPackage" xml:space="preserve">
+    <value>Ogiltig paketet Id levereras</value>
+  </data>
+  <data name="General_MaxStartTime" xml:space="preserve">
+    <value>Starttiden kan inte vara senare än {0:hh\:mm}</value>
+  </data>
+</root>

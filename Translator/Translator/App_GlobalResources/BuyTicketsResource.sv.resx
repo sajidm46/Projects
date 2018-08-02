@@ -1,0 +1,288 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Centre" xml:space="preserve">
+    <value>Centrum: {0}</value>
+  </data>
+  <data name="Discount" xml:space="preserve">
+    <value>Rabatt</value>
+  </data>
+  <data name="InvalidAttendeeAge" xml:space="preserve">
+    <value>Skriv in ett giltigt födelsedatum för medlemmen: {0}. ålder bör vara mellan {1} och {2} för valda medlemskap. "</value>
+  </data>
+  <data name="MemberGroup" xml:space="preserve">
+    <value>Medlemsgruppen</value>
+  </data>
+  <data name="NetPrice" xml:space="preserve">
+    <value>Nettopriset</value>
+  </data>
+  <data name="NoAdults" xml:space="preserve">
+    <value>Inga vuxna lagt till</value>
+  </data>
+  <data name="NoMembers" xml:space="preserve">
+    <value>Inga medlemmar lagt till</value>
+  </data>
+  <data name="None" xml:space="preserve">
+    <value>Ingen</value>
+  </data>
+  <data name="PriceToPay" xml:space="preserve">
+    <value>Priset att betala</value>
+  </data>
+  <data name="SerialNo" xml:space="preserve">
+    <value>Verifikationen serienummer:</value>
+  </data>
+  <data name="TicketsValid" xml:space="preserve">
+    <value>(Biljetter är giltiga för detta datum endast)</value>
+  </data>
+  <data name="TotalToPay" xml:space="preserve">
+    <value>Totalt att betala</value>
+  </data>
+  <data name="UnitCost" xml:space="preserve">
+    <value>Styckkostnad</value>
+  </data>
+  <data name="Vat" xml:space="preserve">
+    <value>Mervärdesskatt</value>
+  </data>
+  <data name="VisitDate" xml:space="preserve">
+    <value>Besök datum: {0} {1}</value>
+  </data>
+  <data name="YourTickets" xml:space="preserve">
+    <value>Dina biljetter</value>
+  </data>
+  <data name="Complete_Blurb" xml:space="preserve">
+    <value>Vissa blurb...</value>
+  </data>
+  <data name="Complete_Dear" xml:space="preserve">
+    <value>Hej</value>
+  </data>
+  <data name="Complete_MainHeader" xml:space="preserve">
+    <value>Betalning framgångsrika</value>
+  </data>
+  <data name="Complete_PricePaid" xml:space="preserve">
+    <value>Betalkurs</value>
+  </data>
+  <data name="Complete_Telephone" xml:space="preserve">
+    <value>Telefon:</value>
+  </data>
+  <data name="Complete_ThankYou" xml:space="preserve">
+    <value>Tack för att köpa biljetter till spela på ???????.  Vänligen hitta bekräftelse detaljer nedan. Du kanske vill skriva ut denna skärm för din bokföring.</value>
+  </data>
+  <data name="Complete_TheTeam" xml:space="preserve">
+    <value>Teamet {0}</value>
+  </data>
+  <data name="Complete_ThisDateOnly" xml:space="preserve">
+    <value>(Biljetter är giltiga för endast detta datum)</value>
+  </data>
+  <data name="Complete_TicketSummary" xml:space="preserve">
+    <value>Dina biljetter Sammanfattning</value>
+  </data>
+  <data name="General_Centre" xml:space="preserve">
+    <value>Centrum: {0}</value>
+  </data>
+  <data name="General_Discount" xml:space="preserve">
+    <value>Rabatt</value>
+  </data>
+  <data name="General_InvalidAttendeeAge" xml:space="preserve">
+    <value>Vänligen ange ett giltigt födelsedatum för medlemmen: {0}. ålder bör vara mellan {1} och {2} för valda medlemskap. "</value>
+  </data>
+  <data name="General_MemberGroup" xml:space="preserve">
+    <value>Medlemsgruppen</value>
+  </data>
+  <data name="General_NetPrice" xml:space="preserve">
+    <value>Nettopris</value>
+  </data>
+  <data name="General_NoAdults" xml:space="preserve">
+    <value>Inga vuxna lagt till</value>
+  </data>
+  <data name="General_NoMembers" xml:space="preserve">
+    <value>Inga medlemmar har lagt till det</value>
+  </data>
+  <data name="General_None" xml:space="preserve">
+    <value>Ingen</value>
+  </data>
+  <data name="General_PriceToPay" xml:space="preserve">
+    <value>Pris att betala</value>
+  </data>
+  <data name="General_SerialNo" xml:space="preserve">
+    <value>Verifikationen serienummer:</value>
+  </data>
+  <data name="General_TicketsValid" xml:space="preserve">
+    <value>(Biljetter är giltiga för endast detta datum)</value>
+  </data>
+  <data name="General_TotalToPay" xml:space="preserve">
+    <value>Totalt att betala</value>
+  </data>
+  <data name="General_UnitCost" xml:space="preserve">
+    <value>Styckkostnad</value>
+  </data>
+  <data name="General_Vat" xml:space="preserve">
+    <value>Mervärdesskatt</value>
+  </data>
+  <data name="General_VisitDate" xml:space="preserve">
+    <value>Besök datum: {0} {1}</value>
+  </data>
+  <data name="General_YourTickets" xml:space="preserve">
+    <value>Dina biljetter</value>
+  </data>
+  <data name="Step1_AdultsRequired" xml:space="preserve">
+    <value>Du behöver minst en vuxen för ditt besök!</value>
+  </data>
+  <data name="Step1_ChildrenRequired" xml:space="preserve">
+    <value>Du behöver minst ett barn för ditt besök!</value>
+  </data>
+  <data name="Step1_Info" xml:space="preserve">
+    <value>&lt;p&gt;Priser är inklusive obegränsad åkning på våra fairground åkattraktioner och klätterväggar.  Rider varierar mellan platser. Kostnaden inkluderar obegränsad användning av faciliteter. Observera i högtrafik såsom skolloven en 2,5 timmars spela session kan införas. Anmälningsavgiften är förutom inträdesavgifter och per familj för livet. Det ger din familj tillgång till någon ??????? centrum. Varje registrerad familj får egna säkerhet svep kort och ett pack inklusive en £2,50 café rabattkupong bl.a.&lt;/p&gt; &lt;p class="req"&gt; du vara medveten om att alla köpta biljetter återbetalas.&lt;/p&gt;</value>
+  </data>
+  <data name="Step1_MainHeader" xml:space="preserve">
+    <value>Köpa biljetter</value>
+  </data>
+  <data name="Step1_NoAvailability" xml:space="preserve">
+    <value>Otillräcklig biljetter finns tillgängliga för datum och session som valts. Vänligen välj ett annat datum eller session.</value>
+  </data>
+  <data name="Step1_SelectTime" xml:space="preserve">
+    <value>Välj den tid du tänker besöka:</value>
+  </data>
+  <data name="Step1_TooManyChildren" xml:space="preserve">
+    <value>Alla grupper av 15 barn eller mer måste bokas direkt med våra centrum. Vänligen kontakta oss. Tack.</value>
+  </data>
+  <data name="Step2_MainHeader" xml:space="preserve">
+    <value>Chef medlem</value>
+  </data>
+  <data name="Step2_Section1" xml:space="preserve">
+    <value>1. berätta om dig själv</value>
+  </data>
+  <data name="Step3_Info" xml:space="preserve">
+    <value>&lt;p&gt;Nästan där, vänligen nu ge oss information om alla andra medlemmar i din grupp. När du fyller varje medlem Detaljer Vänligen välj alternativet rätt länk:&lt;/p&gt; &lt;ul&gt;&lt;li&gt;familj barn = dina egna barn&lt;/li&gt; &lt;li&gt;vårdnadshavare = för ytterligare vuxna familjemedlemmar&lt;/li&gt; &lt;li&gt;gäst = för alla barn/vuxna som inte är familjemedlemmar t.ex. vänner&lt;/li&gt;&lt;/ul&gt;</value>
+  </data>
+  <data name="Step3_MainHeader" xml:space="preserve">
+    <value>Länkade medlemmar</value>
+  </data>
+  <data name="Step4_CBAgree" xml:space="preserve">
+    <value>Jag godkänner villkoren ovan.</value>
+  </data>
+  <data name="Step4_CBAgreeRequired" xml:space="preserve">
+    <value>Vänligen samtycker till att våra regler för spela innan du fortsätter.</value>
+  </data>
+  <data name="Step4_FamilyVisitOnline" xml:space="preserve">
+    <value>Familj besök Online</value>
+  </data>
+  <data name="Step4_RulesOfPlay" xml:space="preserve">
+    <value>&lt;p&gt;Är det mycket viktigt att läsa, förstår och accepterar våra &lt;a href="http://party.???????.com/PartyBooking/pdf/RulesOfPlay.pdf" style="text-decoration: underline;" target="_blank"&gt; Regler för spela&lt;/a&gt; innan du fortsätter.&lt;/p&gt; &lt;p&gt;jag förstår att biljetter är giltiga för datum och tid visas endast. Biljetterna är icke-överföringsbara och icke-återbetalningsbara.&lt;/p&gt;</value>
+  </data>
+</root>

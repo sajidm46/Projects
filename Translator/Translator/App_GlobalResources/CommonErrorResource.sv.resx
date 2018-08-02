@@ -1,0 +1,303 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BookingFailed" xml:space="preserve">
+    <value>Bokningen misslyckades: {0}</value>
+  </data>
+  <data name="CancelFailedCharges" xml:space="preserve">
+    <value>Bokningen kunde inte avbokas eftersom LayInCharges misslyckades, anledning: {0}</value>
+  </data>
+  <data name="CancelFailedPayment" xml:space="preserve">
+    <value>Bokningen kunde inte avbokas eftersom betalningen ej genomfördes, anledning: {0}</value>
+  </data>
+  <data name="CancelFailedProv" xml:space="preserve">
+    <value>Bokningen kunde inte avbokas eftersom ändringen till "preliminärt" misslyckades: {0}</value>
+  </data>
+  <data name="CancelResFailed" xml:space="preserve">
+    <value>Reservationen kunde inte avbokas när bokningen inte genomfördes: {0}: {1}</value>
+  </data>
+  <data name="CreatePersonError" xml:space="preserve">
+    <value>Det gick inte att skapa en ny deltagare</value>
+  </data>
+  <data name="EmailError" xml:space="preserve">
+    <value>Det gick inte att skicka e-post från [{0}] till [{1}] ämne [{2}] anledning: {3}</value>
+  </data>
+  <data name="EnterDiscount" xml:space="preserve">
+    <value>Ange en rabattkod eller värdecheck</value>
+  </data>
+  <data name="ExternalWebPayError" xml:space="preserve">
+    <value>Den externa internetbetalningen är inte korrekt inställd för denna sida</value>
+  </data>
+  <data name="InvalidDate" xml:space="preserve">
+    <value>Ogiltigt datum</value>
+  </data>
+  <data name="InvalidLogin" xml:space="preserve">
+    <value>Felaktigt lösenord/användarnamn</value>
+  </data>
+  <data name="InvalidLoginType" xml:space="preserve">
+    <value>Ogiltig inloggningstyp</value>
+  </data>
+  <data name="InvalidRequest" xml:space="preserve">
+    <value>Ogiltig post!</value>
+  </data>
+  <data name="InvalidSession" xml:space="preserve">
+    <value>Ogiltig eller utgången session</value>
+  </data>
+  <data name="LayinChargesError" xml:space="preserve">
+    <value>Misslyckades att lägga in pris: {0}</value>
+  </data>
+  <data name="LinkError" xml:space="preserve">
+    <value>Ett oväntat fel uppstod vid länkning av identifikation {0} {1} anledning: {2}</value>
+  </data>
+  <data name="NoBooker" xml:space="preserve">
+    <value>Bokningen kan inte hittas i listan över deltagare</value>
+  </data>
+  <data name="NoSiteSelected" xml:space="preserve">
+    <value>Välj en park</value>
+  </data>
+  <data name="NotImplemented" xml:space="preserve">
+    <value>Stöd för denna kontrolltyp har inte genomförts</value>
+  </data>
+  <data name="NoTransIds" xml:space="preserve">
+    <value>Ingen transaktion tillbaka</value>
+  </data>
+  <data name="PleaseAnswer" xml:space="preserve">
+    <value>Snälla svara {0}</value>
+  </data>
+  <data name="SessionUnavailable" xml:space="preserve">
+    <value>Bokningen kunde inte genomföras: den valda sessionen är inte längre tillgänglig.</value>
+  </data>
+  <data name="SetProvError" xml:space="preserve">
+    <value>Det gick inte att ändra bokningen från "aktiv" till "preliminär bokning i väntan på betalning" {0}</value>
+  </data>
+  <data name="TooOld" xml:space="preserve">
+    <value>Ålder måste vara mindre än {0}</value>
+  </data>
+  <data name="TooYoung" xml:space="preserve">
+    <value>Du måste vara äldre {0}</value>
+  </data>
+  <data name="BookingCancelFailed" xml:space="preserve">
+    <value>Bokningen kunde inte annulleras: {0}</value>
+  </data>
+  <data name="BookingCancelled" xml:space="preserve">
+    <value>Bokningen annulleras</value>
+  </data>
+  <data name="PostProcError" xml:space="preserve">
+    <value>Vi har fått din bokning, men det uppstod ett fel. Kontakta AirHop för att bekräfta dina bokningsuppgifter</value>
+  </data>
+  <data name="TNSPaymentCancelled" xml:space="preserve">
+    <value>TNS-betalningen annullerades/genomfördes ej: {0}</value>
+  </data>
+  <data name="AddToResError" xml:space="preserve">
+    <value>Det går inte att lägga till en person i bokningen: {0}</value>
+  </data>
+  <data name="AgeBetween" xml:space="preserve">
+    <value>Ålder måste vara mellan {0} och {1}</value>
+  </data>
+  <data name="AttrError" xml:space="preserve">
+    <value>Det gick inte att spara Antalet gäster : {0}</value>
+  </data>
+  <data name="ConfigError" xml:space="preserve">
+    <value>Konfigurationsinställningen {0} inte definierad eller ogiltig </value>
+  </data>
+  <data name="GuardianOlder" xml:space="preserve">
+    <value>Ansvarig vuxen måste vara äldre än {0}</value>
+  </data>
+  <data name="InvalidDiscount" xml:space="preserve">
+    <value>Ogiltig rabattkod</value>
+  </data>
+  <data name="NoDefaultClient" xml:space="preserve">
+    <value>Ingen standardklient konfigurerad</value>
+  </data>
+  <data name="NoSitesFound" xml:space="preserve">
+    <value>Fel! Inga platser hittades.</value>
+  </data>
+  <data name="PersonFetchError" xml:space="preserve">
+    <value>Det gick inte att hämta uppgifter för {0}</value>
+  </data>
+  <data name="SorryNoCanDo" xml:space="preserve">
+    <value>Tyvärr kan jag inte göra det: {0}</value>
+  </data>
+  <data name="TNSRollbackError" xml:space="preserve">
+    <value>TNS-betalningen misslyckades: {0}: Det gick inte att ändra bokningen till Aktiv före avbokning: {1}</value>
+  </data>
+  <data name="UpdatePersonError" xml:space="preserve">
+    <value>Det gick inte att uppdatera dina personliga uppgifter: {0}</value>
+  </data>
+  <data name="SetActiveError" xml:space="preserve">
+    <value>Det gick inte att aktivera bokningen: {0}</value>
+  </data>
+  <data name="InvalidBE" xml:space="preserve">
+    <value>Okänd BEId {0}</value>
+  </data>
+  <data name="InvalidMemberProfile" xml:space="preserve">
+    <value>Ogiltigt medlemsprofil {0}</value>
+  </data>
+  <data name="InvalidMemberStatus" xml:space="preserve">
+    <value>Ogiltigt medlemsstatus {0}</value>
+  </data>
+  <data name="NoDefaultBE" xml:space="preserve">
+    <value>Det gick inte att hitta BEId för gruppsessionen i standardläge</value>
+  </data>
+  <data name="NoWaiverDefault" xml:space="preserve">
+    <value>Inget avstående-ID på standard. Att vara meningslöst att här.</value>
+  </data>
+  <data name="UnexpectedError" xml:space="preserve">
+    <value>Oväntat fel {0}</value>
+  </data>
+  <data name="NoteError" xml:space="preserve">
+    <value>Det gick inte att skapa en anteckning {0}: {1}</value>
+  </data>
+  <data name="CancelFailedPrepay" xml:space="preserve">
+    <value>Det gick inte att annullera förskottsbetalningen eftersom betalningen misslyckades: {0}</value>
+  </data>
+  <data name="PrepaymentFailed" xml:space="preserve">
+    <value>Det gick inte att genomföra förskottsbetalningen: {0}</value>
+  </data>
+  <data name="CancelFailedVoucher" xml:space="preserve">
+    <value>Det gick inte att lösa in värdekupongen på grund av ett problem med betalningen: {0} ({1})</value>
+  </data>
+  <data name="EnterSource" xml:space="preserve">
+    <value>Vänligen ange din post</value>
+  </data>
+  <data name="InvalidSite" xml:space="preserve">
+    <value>Ogiltig plats: {0}</value>
+  </data>
+  <data name="NoResults" xml:space="preserve">
+    <value>Inga resultat</value>
+  </data>
+  <data name="InvalidPaymentMethod" xml:space="preserve">
+    <value>Ogiltigt betalningsmetod: {0}</value>
+  </data>
+  <data name="PaymentMethodRequired" xml:space="preserve">
+    <value>Du måste välja en betalningsmetod</value>
+  </data>
+  <data name="DiscountOrVoucher" xml:space="preserve">
+    <value>Det går inte att använda en rabattkod eller en värdekupong</value>
+  </data>
+  <data name="WaiverSaveError" xml:space="preserve">
+    <value>Fel vid sparande av undantag: {0}</value>
+  </data>
+  <data name="WaiverFetchError" xml:space="preserve">
+    <value>Fel {0} vid hämtning waiver</value>
+  </data>
+  <data name="AllocationFailed" xml:space="preserve">
+    <value>Det gick inte att allokera betalningar: {0}</value>
+  </data>
+</root>

@@ -1,0 +1,659 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Activity" xml:space="preserve">
+    <value>Activiteit</value>
+    <comment>Activiteit</comment>
+  </data>
+  <data name="Add" xml:space="preserve">
+    <value>Voeg toe</value>
+    <comment>Voeg toe</comment>
+  </data>
+  <data name="AmountPaid" xml:space="preserve">
+    <value>Betaalde bedrag</value>
+    <comment>Betaalde bedrag</comment>
+  </data>
+  <data name="AmountToPay" xml:space="preserve">
+    <value>Te betalen bedrag</value>
+    <comment>Te betalen bedrag</comment>
+  </data>
+  <data name="Back" xml:space="preserve">
+    <value>Terug</value>
+    <comment>Terug</comment>
+  </data>
+  <data name="BalanceDue" xml:space="preserve">
+    <value>Nog te betalen</value>
+    <comment>Nog te betalen</comment>
+  </data>
+  <data name="BalancePayment" xml:space="preserve">
+    <value>Openstaande bedrag bij aankomst betalen  </value>
+    <comment>Openstaande bedrag bij aankomst betalen  </comment>
+  </data>
+  <data name="Book" xml:space="preserve">
+    <value>Reserveer </value>
+    <comment>Reserveer </comment>
+  </data>
+  <data name="BookedAt" xml:space="preserve">
+    <value>Gereserveerd bij</value>
+    <comment>Gereserveerd bij</comment>
+  </data>
+  <data name="BookedBy" xml:space="preserve">
+    <value>Gereserveerd door</value>
+    <comment>Gereserveerd door</comment>
+  </data>
+  <data name="BookingReference" xml:space="preserve">
+    <value>Reserveringsnummer</value>
+    <comment>Reserveringsnummer</comment>
+  </data>
+  <data name="By" xml:space="preserve">
+    <value>door</value>
+    <comment>door</comment>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Annuleren</value>
+    <comment>Annuleren</comment>
+  </data>
+  <data name="Change" xml:space="preserve">
+    <value>Wijzigen</value>
+    <comment>Wijzigen</comment>
+  </data>
+  <data name="ChargedToAccount" xml:space="preserve">
+    <value>Betalen op rekening</value>
+    <comment>Betalen op rekening</comment>
+  </data>
+  <data name="Complete" xml:space="preserve">
+    <value>Voltooi</value>
+    <comment>Voltooi</comment>
+  </data>
+  <data name="Confirm" xml:space="preserve">
+    <value>Bevestig </value>
+    <comment>Bevestig </comment>
+  </data>
+  <data name="ConfirmPassword" xml:space="preserve">
+    <value>Bevestig jouw wachtwoord</value>
+    <comment>Bevestig jouw wachtwoord</comment>
+  </data>
+  <data name="ConfirmPasswordRequired" xml:space="preserve">
+    <value>Bevestig jouw wachtwoord</value>
+    <comment>Bevestig jouw wachtwoord</comment>
+  </data>
+  <data name="ContinueWorking" xml:space="preserve">
+    <value>Doorgaan </value>
+    <comment>Doorgaan </comment>
+  </data>
+  <data name="Cost" xml:space="preserve">
+    <value>Bedrag</value>
+    <comment>Bedrag</comment>
+  </data>
+  <data name="CustomerLogin" xml:space="preserve">
+    <value>Inloggen</value>
+    <comment>Inloggen</comment>
+  </data>
+  <data name="Date" xml:space="preserve">
+    <value>Datum </value>
+    <comment>Datum </comment>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Verwijderen</value>
+    <comment>Verwijderen</comment>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Omschrijving</value>
+    <comment>Omschrijving</comment>
+  </data>
+  <data name="DiscountTotal" xml:space="preserve">
+    <value>Totaalbedrag&lt;b&gt; (inclusief korting)&lt;/b&gt;</value>
+    <comment>Totaalbedrag&lt;b&gt; (inclusief korting)&lt;/b&gt;</comment>
+  </data>
+  <data name="Done" xml:space="preserve">
+    <value>Klaar</value>
+    <comment>Klaar</comment>
+  </data>
+  <data name="EmailSent" xml:space="preserve">
+    <value>De e-mail is verstuurd</value>
+    <comment>De e-mail is verstuurd</comment>
+  </data>
+  <data name="End" xml:space="preserve">
+    <value>Eind</value>
+    <comment>Eind</comment>
+  </data>
+  <data name="EnterPromo" xml:space="preserve">
+    <value>Voer je kortingscode hieronder in</value>
+    <comment>Voer je kortingscode hieronder in</comment>
+  </data>
+  <data name="ForgottenPassword" xml:space="preserve">
+    <value>Jouw wachtwoord vergeten?</value>
+    <comment>Jouw wachtwoord vergeten?</comment>
+  </data>
+  <data name="GrandTotal" xml:space="preserve">
+    <value>Totaal</value>
+    <comment>Totaal</comment>
+  </data>
+  <data name="GuardianWaiverAcceptance" xml:space="preserve">
+    <value>Online vrijwaringsformulier geaccepteerd</value>
+    <comment>Online vrijwaringsformulier geaccepteerd</comment>
+  </data>
+  <data name="Including" xml:space="preserve">
+    <value>inclusief</value>
+    <comment>inclusief</comment>
+  </data>
+  <data name="Item" xml:space="preserve">
+    <value>Artikel</value>
+    <comment>Artikel</comment>
+  </data>
+  <data name="Location" xml:space="preserve">
+    <value>Park </value>
+    <comment>Park </comment>
+  </data>
+  <data name="LoggedOut" xml:space="preserve">
+    <value>&lt;h2&gt;Je bent succesvol uitgelogd.&lt;/h2&gt; &lt;p&gt;Gebruik jouw gebruikersnaam en wachtwoord voor toegang tot het ledengebied.&lt;/p&gt;</value>
+    <comment>&lt;h2&gt;Je bent succesvol uitgelogd.&lt;/h2&gt; &lt;p&gt;Gebruik jouw gebruikersnaam en wachtwoord voor toegang tot het ledengebied.&lt;/p&gt;</comment>
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value>Inloggen</value>
+    <comment>Inloggen</comment>
+  </data>
+  <data name="LoginBlurb" xml:space="preserve">
+    <value>Voer jouw gebruikersnaam in</value>
+    <comment>Voer jouw gebruikersnaam in</comment>
+  </data>
+  <data name="Logout" xml:space="preserve">
+    <value>Uitloggen</value>
+    <comment>Uitloggen</comment>
+  </data>
+  <data name="MasterPageBox1" xml:space="preserve">
+    <value>Voorafgaand aan het springen moet je een vrijwaringsformulier invullen. Ben je jonger dan 18 jaar dan moet een ouder/voogd dit formulier voor jou invullen en ondertekenen.</value>
+    <comment>Voorafgaand aan het springen moet je een vrijwaringsformulier invullen. Ben je jonger dan 18 jaar dan moet een ouder/voogd dit formulier voor jou invullen en ondertekenen.</comment>
+  </data>
+  <data name="MasterPageBox2" xml:space="preserve">
+    <value>De minimale leeftijd is 6 jaar</value>
+    <comment>De minimale leeftijd is 6 jaar</comment>
+  </data>
+  <data name="MasterPageBox3" xml:space="preserve">
+    <value>**Bristol** Er gelden lengte en gewichtsrestricties voor de “wipe out zone”. Klik hier voor meer informatie. </value>
+    <comment>**Bristol** Er gelden lengte en gewichtsrestricties voor de “wipe out zone”. Klik hier voor meer informatie. </comment>
+  </data>
+  <data name="MobileMenuHelp" xml:space="preserve">
+    <value>Bedankt voor het gebruik van onze reserveringssysteem. Ondervind je moeilijkheden met het gebruik van deze mobiele website, laat het ons weten via een van de volgende contactmethodes:</value>
+    <comment>Bedankt voor het gebruik van onze reserveringssysteem. Ondervind je moeilijkheden met het gebruik van deze mobiele website, laat het ons weten via een van de volgende contactmethodes:</comment>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Naam</value>
+    <comment>Naam</comment>
+  </data>
+  <data name="Next" xml:space="preserve">
+    <value>Volgende</value>
+    <comment>Volgende</comment>
+  </data>
+  <data name="NothingToPay" xml:space="preserve">
+    <value>Je hoeft niets te betalen -Geen betaling nodig.</value>
+    <comment>Je hoeft niets te betalen -Geen betaling nodig.</comment>
+  </data>
+  <data name="OnlineBooking" xml:space="preserve">
+    <value>Online reservering</value>
+    <comment>Online reservering</comment>
+  </data>
+  <data name="OnlinePayment" xml:space="preserve">
+    <value>Online betaling</value>
+    <comment>Online betaling</comment>
+  </data>
+  <data name="Pair" xml:space="preserve">
+    <value>Paar</value>
+    <comment>Paar</comment>
+  </data>
+  <data name="Participants" xml:space="preserve">
+    <value>Deelnemers</value>
+    <comment>Deelnemers</comment>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>Wachtwoord</value>
+    <comment>Wachtwoord</comment>
+  </data>
+  <data name="PasswordMismatch" xml:space="preserve">
+    <value>Het wachtwoord komt niet overeen. Controleer je wachtwoord</value>
+    <comment>Het wachtwoord komt niet overeen. Controleer je wachtwoord</comment>
+  </data>
+  <data name="PasswordRequired" xml:space="preserve">
+    <value>Wachtwoord vereist</value>
+    <comment>Wachtwoord vereist</comment>
+  </data>
+  <data name="Payment" xml:space="preserve">
+    <value>Betaling</value>
+    <comment>Betaling</comment>
+  </data>
+  <data name="PaymentConfirmation" xml:space="preserve">
+    <value>Betalingsbevestiging</value>
+    <comment>Betalingsbevestiging</comment>
+  </data>
+  <data name="PaymentMethod" xml:space="preserve">
+    <value>Betalingsmethode</value>
+    <comment>Betalingsmethode</comment>
+  </data>
+  <data name="PaymentSuccessful" xml:space="preserve">
+    <value>Betaling succesvol!</value>
+    <comment>Betaling succesvol!</comment>
+  </data>
+  <data name="PleaseSelect" xml:space="preserve">
+    <value>Maak een keuze</value>
+    <comment>Maak een keuze</comment>
+  </data>
+  <data name="Powered" xml:space="preserve">
+    <value>Mede mogelijk gemaakt</value>
+    <comment>Mede mogelijk gemaakt</comment>
+  </data>
+  <data name="PoweredBy" xml:space="preserve">
+    <value>Mede mogelijk gemaakt door</value>
+    <comment>Mede mogelijk gemaakt door</comment>
+  </data>
+  <data name="PrePayment" xml:space="preserve">
+    <value>Vooruitbetaling</value>
+    <comment>Vooruitbetaling</comment>
+  </data>
+  <data name="Price" xml:space="preserve">
+    <value>Prijs</value>
+    <comment>Prijs</comment>
+  </data>
+  <data name="Processing" xml:space="preserve">
+    <value>Wordt verwerkt….</value>
+    <comment>Wordt verwerkt….</comment>
+  </data>
+  <data name="Promo" xml:space="preserve">
+    <value>Kortingscode</value>
+    <comment>Kortingscode</comment>
+  </data>
+  <data name="PromoText" xml:space="preserve">
+    <value>Vul de kortingscode in het vak hieronder. Let op: de korting geldt alleen voor de Free Jumptijd</value>
+    <comment>Vul de kortingscode in het vak hieronder. Let op: de korting geldt alleen voor de Free Jumptijd</comment>
+  </data>
+  <data name="Purchase" xml:space="preserve">
+    <value>Bestel</value>
+    <comment>Bestel</comment>
+  </data>
+  <data name="Qty" xml:space="preserve">
+    <value>Aantal</value>
+    <comment>Aantal</comment>
+  </data>
+  <data name="Quantity" xml:space="preserve">
+    <value>Aantal</value>
+    <comment>Aantal</comment>
+  </data>
+  <data name="ReEnter" xml:space="preserve">
+    <value>Voer je gegevens opnieuw in</value>
+    <comment>Voer je gegevens opnieuw in</comment>
+  </data>
+  <data name="Remove" xml:space="preserve">
+    <value>Verwijder</value>
+    <comment>Verwijder</comment>
+  </data>
+  <data name="RequiredFields" xml:space="preserve">
+    <value>Velden met een * zijn verplicht</value>
+    <comment>Velden met een * zijn verplicht</comment>
+  </data>
+  <data name="ReservationProcessing" xml:space="preserve">
+    <value>Een moment geduld, jouw reservering wordt verwerkt.</value>
+    <comment>Een moment geduld, jouw reservering wordt verwerkt.</comment>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Opslaan</value>
+    <comment>Opslaan</comment>
+  </data>
+  <data name="Select" xml:space="preserve">
+    <value>Selecteer</value>
+    <comment>Selecteer</comment>
+  </data>
+  <data name="SelectDate" xml:space="preserve">
+    <value>Selecteer datum </value>
+    <comment>Selecteer datum </comment>
+  </data>
+  <data name="SelectLocation" xml:space="preserve">
+    <value>Selecteer locatie</value>
+    <comment>Selecteer locatie</comment>
+  </data>
+  <data name="SelectOption" xml:space="preserve">
+    <value>Maak een keuze</value>
+    <comment>Maak een keuze</comment>
+  </data>
+  <data name="SelectPaymentMethod" xml:space="preserve">
+    <value>Selecteer betalingsmethode</value>
+    <comment>Selecteer betalingsmethode</comment>
+  </data>
+  <data name="SessionDate" xml:space="preserve">
+    <value>Datum reservering:</value>
+    <comment>Datum reservering:</comment>
+  </data>
+  <data name="SessionTime" xml:space="preserve">
+    <value>Tijd:</value>
+    <comment>Tijd:</comment>
+  </data>
+  <data name="Sofort" xml:space="preserve">
+    <value>Direct</value>
+    <comment>Direct</comment>
+  </data>
+  <data name="Start" xml:space="preserve">
+    <value>Start</value>
+    <comment>Start</comment>
+  </data>
+  <data name="Submit" xml:space="preserve">
+    <value>Opslaan</value>
+    <comment>Opslaan</comment>
+  </data>
+  <data name="Subtotal" xml:space="preserve">
+    <value>Subtotaal</value>
+    <comment>Subtotaal</comment>
+  </data>
+  <data name="Summary" xml:space="preserve">
+    <value>Gripsocks</value>
+    <comment>Gripsocks</comment>
+  </data>
+  <data name="TeamBlurb" xml:space="preserve">
+    <value>Het team van {0}</value>
+    <comment>Het team van {0}</comment>
+  </data>
+  <data name="TimeoutWarning" xml:space="preserve">
+    <value>Waarschuwing. Deze sessie is verlopen wegens inactiviteit.</value>
+    <comment>Waarschuwing. Deze sessie is verlopen wegens inactiviteit.</comment>
+  </data>
+  <data name="TNSCheckout" xml:space="preserve">
+    <value>Credit card</value>
+    <comment>Credit card</comment>
+  </data>
+  <data name="ToPay" xml:space="preserve">
+    <value>Te betalen: </value>
+    <comment>Te betalen: </comment>
+  </data>
+  <data name="Total" xml:space="preserve">
+    <value>Totaal</value>
+    <comment>Totaal</comment>
+  </data>
+  <data name="TotalCost" xml:space="preserve">
+    <value>Totaalbedrag</value>
+    <comment>Totaalbedrag</comment>
+  </data>
+  <data name="TotalDiscount" xml:space="preserve">
+    <value>Totale korting</value>
+    <comment>Totale korting</comment>
+  </data>
+  <data name="TotalPrice" xml:space="preserve">
+    <value>Totaalprijs</value>
+    <comment>Totaalprijs</comment>
+  </data>
+  <data name="UnitPrice" xml:space="preserve">
+    <value>Prijs per stuk</value>
+    <comment>Prijs per stuk</comment>
+  </data>
+  <data name="Update" xml:space="preserve">
+    <value>Bijwerken</value>
+    <comment>Bijwerken</comment>
+  </data>
+  <data name="Username" xml:space="preserve">
+    <value>Gebruikersnaam</value>
+    <comment>Gebruikersnaam</comment>
+  </data>
+  <data name="UsernameRequired" xml:space="preserve">
+    <value>Gebruikersnaam is verplicht</value>
+    <comment>Gebruikersnaam is verplicht</comment>
+  </data>
+  <data name="View" xml:space="preserve">
+    <value>Bekijk</value>
+    <comment>Bekijk</comment>
+  </data>
+  <data name="Voucher" xml:space="preserve">
+    <value>Kortingsvoucher</value>
+    <comment>Kortingsvoucher</comment>
+  </data>
+  <data name="VoucherCode" xml:space="preserve">
+    <value>Kortingscode </value>
+    <comment>Kortingscode </comment>
+  </data>
+  <data name="VoucherText" xml:space="preserve">
+    <value>Voer jouw kortingscode hieronder in</value>
+    <comment>Voer jouw kortingscode hieronder in</comment>
+  </data>
+  <data name="WaiverDetails" xml:space="preserve">
+    <value>Details vrijwaringsformulier</value>
+    <comment>Details vrijwaringsformulier</comment>
+  </data>
+  <data name="WaiverMessage1" xml:space="preserve">
+    <value>De reservering is klaar. We hebben alleen nog de gegevens van alle deelnemers nodig om de vrijwaringsformulieren in te vullen voordat jullie springsessie begint. </value>
+    <comment>De reservering is klaar. We hebben alleen nog de gegevens van alle deelnemers nodig om de vrijwaringsformulieren in te vullen voordat jullie springsessie begint. </comment>
+  </data>
+  <data name="WaiverMessage2" xml:space="preserve">
+    <value>Heb je de gegevens bij de hand van de deelnemers? Klik dan hieronder op de knop "deelnemers" en vul daar de gegevens in van alle deelnemers</value>
+    <comment>Heb je de gegevens bij de hand van de deelnemers? Klik dan hieronder op de knop "deelnemers" en vul daar de gegevens in van alle deelnemers</comment>
+  </data>
+  <data name="WaiverMessage3" xml:space="preserve">
+    <value>Heb je de gegevens nu niet bij de hand? Log dan later in om de gegevens aan te vullen.</value>
+    <comment>Heb je de gegevens nu niet bij de hand? Log dan later in om de gegevens aan te vullen.</comment>
+  </data>
+  <data name="WaiverMessageMulti" xml:space="preserve">
+    <value>Je hebt meerdere reserveringen gemaakt. Begin met het invullen van de informatie van de deelnemers die bij eerste reserveringsnumme horen. Wij begeleiden je naar de volgende reservering. </value>
+    <comment>Je hebt meerdere reserveringen gemaakt. Begin met het invullen van de informatie van de deelnemers die bij eerste reserveringsnumme horen. Wij begeleiden je naar de volgende reservering. </comment>
+  </data>
+  <data name="Welcome" xml:space="preserve">
+    <value>Welkom</value>
+    <comment>Welkom</comment>
+  </data>
+  <data name="Working" xml:space="preserve">
+    <value>Een moment geduld</value>
+    <comment>Een moment geduld</comment>
+  </data>
+  <data name="GiroPay" xml:space="preserve">
+    <value>Giro</value>
+    <comment>Giro</comment>
+  </data>
+  <data name="PayPal" xml:space="preserve">
+    <value>PaypPal</value>
+    <comment>PaypPal</comment>
+  </data>
+  <data name="LongDateFormat" xml:space="preserve">
+    <value>{0:dddd dd MMMM yyyy}</value>
+    <comment>{0:dddd dd MMMM jjjj}</comment>
+  </data>
+  <data name="PromoHeader" xml:space="preserve">
+    <value>Kortingscodes en Vouchers</value>
+    <comment>Kortingscodes en Vouchers</comment>
+  </data>
+  <data name="Send" xml:space="preserve">
+    <value>Verzend</value>
+    <comment>Verzend</comment>
+  </data>
+  <data name="Spaces" xml:space="preserve">
+    <value>{0} plekken&lt;span class="uk-hidden-small"&gt; beschikbaar&lt;/span&gt;</value>
+    <comment>{0} plekken&lt;span class="uk-hidden-small"&gt; beschikbaar&lt;/span&gt;</comment>
+  </data>
+  <data name="Prepaid" xml:space="preserve">
+    <value>Vooruitbetaald</value>
+    <comment>Vooruitbetaald</comment>
+  </data>
+  <data name="Socks" xml:space="preserve">
+    <value>Sokken</value>
+    <comment>Sokken</comment>
+  </data>
+  <data name="DepositAmount" xml:space="preserve">
+    <value>50% aanbetaling: {0:c}</value>
+    <comment>50% aanbetaling: {0:c}</comment>
+  </data>
+  <data name="FullAmount" xml:space="preserve">
+    <value>Hele bedrag</value>
+    <comment>Hele bedrag</comment>
+  </data>
+  <data name="GoodAvailability" xml:space="preserve">
+    <value>Voldoende beschikbaarheid</value>
+    <comment>Voldoende beschikbaarheid</comment>
+  </data>
+  <data name="DiscountTotal2" xml:space="preserve">
+    <value>Totale korting</value>
+    <comment>Totale korting</comment>
+  </data>
+  <data name="BalanceDueDate" xml:space="preserve">
+    <value>Betalen voor due date</value>
+    <comment>Betalen voor due date</comment>
+  </data>
+  <data name="MemberAccountBalance" xml:space="preserve">
+    <value>Rekeninghouder</value>
+    <comment>Rekeninghouder</comment>
+  </data>
+  <data name="To" xml:space="preserve">
+    <value>tot</value>
+  </data>
+  <data name="ABOUT" xml:space="preserve">
+    <value>OVER ONS</value>
+    <comment>OVER ONS</comment>
+  </data>
+  <data name="ACTIVITIES" xml:space="preserve">
+    <value>ACTIVITEITEN</value>
+    <comment>ACTIVITEITEN</comment>
+  </data>
+  <data name="CONTACT" xml:space="preserve">
+    <value>CONTACT</value>
+    <comment>CONTACT</comment>
+  </data>
+  <data name="EVENTS" xml:space="preserve">
+    <value>EVENEMENTEN</value>
+    <comment>EVENEMENTEN</comment>
+  </data>
+  <data name="FAQ" xml:space="preserve">
+    <value>FAQ</value>
+    <comment>FAQ</comment>
+  </data>
+  <data name="PARTIES" xml:space="preserve">
+    <value>GROEPEN</value>
+    <comment>GROEPEN</comment>
+  </data>
+  <data name="TERMSANDCONDITIONS" xml:space="preserve">
+    <value>ALGEMENE VOORWAARDEN</value>
+    <comment>ALGEMENE VOORWAARDEN</comment>
+  </data>
+  <data name="BOOKNOW" xml:space="preserve">
+    <value>BOEK NU</value>
+    <comment>BOEK NU</comment>
+  </data>
+  <data name="PreferredTime" xml:space="preserve">
+    <value>Voorkeurstijd</value>
+  </data>
+  <data name="SecondHourTag" xml:space="preserve">
+    <value>-met tweede uur</value>
+  </data>
+  <data name="DiscountNote" xml:space="preserve">
+    <value>Korting [{0}]</value>
+  </data>
+  <data name="UpsellItemEmailFormat" xml:space="preserve">
+    <value>&lt;tr&gt;&lt;td&gt;{0} gekocht:&lt;/td&gt; &lt;td&gt;Qty: {1}, totaal: {2:c} (@{3:c})&lt;/td&gt;&lt;/tr&gt;</value>
+  </data>
+</root>

@@ -1,0 +1,528 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Activity" xml:space="preserve">
+    <value>Alternativ</value>
+  </data>
+  <data name="Add" xml:space="preserve">
+    <value>Tillämpa</value>
+  </data>
+  <data name="AmountPaid" xml:space="preserve">
+    <value>Erlagt belopp</value>
+  </data>
+  <data name="AmountToPay" xml:space="preserve">
+    <value>Belopp som skall betalas</value>
+  </data>
+  <data name="Back" xml:space="preserve">
+    <value>Tillbaka</value>
+  </data>
+  <data name="BalanceDue" xml:space="preserve">
+    <value>Utestående belopp</value>
+  </data>
+  <data name="BalancePayment" xml:space="preserve">
+    <value>Utestående belopp måste betalas i parken på dagen för kalaset.</value>
+  </data>
+  <data name="Book" xml:space="preserve">
+    <value>Boka</value>
+  </data>
+  <data name="BookedAt" xml:space="preserve">
+    <value>Bokat på</value>
+  </data>
+  <data name="BookedBy" xml:space="preserve">
+    <value>Bokat av</value>
+  </data>
+  <data name="BookingReference" xml:space="preserve">
+    <value>Bokningsnummer</value>
+  </data>
+  <data name="By" xml:space="preserve">
+    <value>av</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Avbryt</value>
+  </data>
+  <data name="Change" xml:space="preserve">
+    <value>Ändra</value>
+  </data>
+  <data name="ChargedToAccount" xml:space="preserve">
+    <value>Belastat konto</value>
+  </data>
+  <data name="Complete" xml:space="preserve">
+    <value>Slutför</value>
+  </data>
+  <data name="Confirm" xml:space="preserve">
+    <value>Bekräfta</value>
+  </data>
+  <data name="ConfirmPassword" xml:space="preserve">
+    <value>Bekräfta ditt lösenord</value>
+  </data>
+  <data name="ConfirmPasswordRequired" xml:space="preserve">
+    <value>Bekräfta ditt lösenord</value>
+  </data>
+  <data name="ContinueWorking" xml:space="preserve">
+    <value>Fortsätta att arbeta</value>
+  </data>
+  <data name="Cost" xml:space="preserve">
+    <value>Kostnad:</value>
+  </data>
+  <data name="CustomerLogin" xml:space="preserve">
+    <value>Kundinloggning</value>
+  </data>
+  <data name="Date" xml:space="preserve">
+    <value>Datum</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Ta bort</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Beskrivning</value>
+  </data>
+  <data name="DiscountTotal" xml:space="preserve">
+    <value>Totalt &lt;b&gt;(inklusive kampanjkod) &lt; / b&gt;</value>
+  </data>
+  <data name="Done" xml:space="preserve">
+    <value>Klar</value>
+  </data>
+  <data name="EmailSent" xml:space="preserve">
+    <value>E-postmeddelandet skickades</value>
+  </data>
+  <data name="End" xml:space="preserve">
+    <value>Slut</value>
+  </data>
+  <data name="EnterPromo" xml:space="preserve">
+    <value>Om du har en rabattkod anger du den i fältet nedanför</value>
+  </data>
+  <data name="ForgottenPassword" xml:space="preserve">
+    <value>Glömt ditt lösenord?</value>
+  </data>
+  <data name="GrandTotal" xml:space="preserve">
+    <value>Totalt belopp:</value>
+  </data>
+  <data name="GuardianWaiverAcceptance" xml:space="preserve">
+    <value>Acceptera friskrivningsklausulen av handledare</value>
+  </data>
+  <data name="Including" xml:space="preserve">
+    <value>inklusive</value>
+  </data>
+  <data name="Item" xml:space="preserve">
+    <value>Artikel</value>
+  </data>
+  <data name="Location" xml:space="preserve">
+    <value>AirHop Park</value>
+  </data>
+  <data name="LoggedOut" xml:space="preserve">
+    <value>&lt;h2&gt;Du har loggats ut.&lt;/h2&gt; &lt;p&gt;Använd ditt befintliga användarnamn och lösenord för att logga in.&lt;/p&gt;</value>
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value>Inloggning</value>
+  </data>
+  <data name="LoginBlurb" xml:space="preserve">
+    <value>Du kan logga in med dina befintliga inloggningsuppgifter.</value>
+  </data>
+  <data name="Logout" xml:space="preserve">
+    <value>Logga ut</value>
+  </data>
+  <data name="MasterPageBox1" xml:space="preserve">
+    <value>AirHop kan hoppa med den enda som har fullgjort vår ansvarsfriskrivning. Alla barn under 18 år, en förälder eller vårdnadshavare måste anta detta. Barnen, deras föräldraskap inte är på plats, måste fylla i deras friskrivning online och acceptera.</value>
+  </data>
+  <data name="MasterPageBox2" xml:space="preserve">
+    <value>Du måste vara minst 5 år gammal för att kunna hoppa på AirHop</value>
+  </data>
+  <data name="MasterPageBox3" xml:space="preserve">
+    <value>Observera att parker med "Wipe Out" har vikt- och längdrestriktioner. Mer information hittar du här</value>
+  </data>
+  <data name="MobileMenuHelp" xml:space="preserve">
+    <value>Tack för att du använder vårt mobila bokningssystem. Om du har några problem med denna webbplats kan du kontakta oss på:</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Namn</value>
+  </data>
+  <data name="Next" xml:space="preserve">
+    <value>Nästa</value>
+  </data>
+  <data name="NothingToPay" xml:space="preserve">
+    <value>Ingenting att betala</value>
+  </data>
+  <data name="OnlineBooking" xml:space="preserve">
+    <value>Onlinebokning</value>
+  </data>
+  <data name="OnlinePayment" xml:space="preserve">
+    <value>Onlinebetalning</value>
+  </data>
+  <data name="Pair" xml:space="preserve">
+    <value>Par</value>
+  </data>
+  <data name="Participants" xml:space="preserve">
+    <value>Deltagare</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>Lösenord</value>
+  </data>
+  <data name="PasswordMismatch" xml:space="preserve">
+    <value>Lösenorden matchar inte. Vänligen kontrollera ditt lösenord.</value>
+  </data>
+  <data name="PasswordRequired" xml:space="preserve">
+    <value>Lösenord krävs</value>
+  </data>
+  <data name="Payment" xml:space="preserve">
+    <value>Betalning</value>
+  </data>
+  <data name="PaymentConfirmation" xml:space="preserve">
+    <value>Betalningsbekräftelse</value>
+  </data>
+  <data name="PaymentMethod" xml:space="preserve">
+    <value>Betalningsmetod</value>
+  </data>
+  <data name="PaymentSuccessful" xml:space="preserve">
+    <value>Betalningen genomfördes!</value>
+  </data>
+  <data name="PleaseSelect" xml:space="preserve">
+    <value>-Vänligen välj-</value>
+  </data>
+  <data name="Powered" xml:space="preserve">
+    <value>Stöder</value>
+  </data>
+  <data name="PoweredBy" xml:space="preserve">
+    <value>Stöds av</value>
+  </data>
+  <data name="PrePayment" xml:space="preserve">
+    <value>Förskottsbetalning</value>
+  </data>
+  <data name="Price" xml:space="preserve">
+    <value>Pris</value>
+  </data>
+  <data name="Processing" xml:space="preserve">
+    <value>Bearbetar ...</value>
+  </data>
+  <data name="Promo" xml:space="preserve">
+    <value>Rabattkod</value>
+  </data>
+  <data name="PromoText" xml:space="preserve">
+    <value>Ange din kupong eller rabattkod i rutan nedanför. Gäller endast för frihoppning.</value>
+  </data>
+  <data name="Purchase" xml:space="preserve">
+    <value>Köp</value>
+  </data>
+  <data name="Qty" xml:space="preserve">
+    <value>Antal</value>
+  </data>
+  <data name="Quantity" xml:space="preserve">
+    <value>Antal</value>
+  </data>
+  <data name="ReEnter" xml:space="preserve">
+    <value>Skriv in dina uppgifter igen</value>
+  </data>
+  <data name="Remove" xml:space="preserve">
+    <value>Ta bort</value>
+  </data>
+  <data name="RequiredFields" xml:space="preserve">
+    <value>* anger obligatoriska fält</value>
+  </data>
+  <data name="ReservationProcessing" xml:space="preserve">
+    <value>Vänta medan din bokning bearbetas ...</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Spara</value>
+  </data>
+  <data name="Select" xml:space="preserve">
+    <value>Välj</value>
+  </data>
+  <data name="SelectDate" xml:space="preserve">
+    <value>Välj datum:</value>
+  </data>
+  <data name="SelectLocation" xml:space="preserve">
+    <value>Välj Ort:</value>
+  </data>
+  <data name="SelectOption" xml:space="preserve">
+    <value>Välj ett alternativ</value>
+  </data>
+  <data name="SelectPaymentMethod" xml:space="preserve">
+    <value>Vänligen välj betalningssätt</value>
+  </data>
+  <data name="SessionDate" xml:space="preserve">
+    <value>Datum:</value>
+  </data>
+  <data name="SessionTime" xml:space="preserve">
+    <value>Tid:</value>
+  </data>
+  <data name="Sofort" xml:space="preserve">
+    <value>Omedelbar banköverföring</value>
+  </data>
+  <data name="Start" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="Subtotal" xml:space="preserve">
+    <value>Delbelopp</value>
+  </data>
+  <data name="Summary" xml:space="preserve">
+    <value>Sammanfattning</value>
+  </data>
+  <data name="TeamBlurb" xml:space="preserve">
+    <value>Teamet {0}</value>
+  </data>
+  <data name="TimeoutWarning" xml:space="preserve">
+    <value>Varning. Din tid håller på att gå ut på grund av inaktivitet.</value>
+  </data>
+  <data name="TNSCheckout" xml:space="preserve">
+    <value>Kreditkort</value>
+  </data>
+  <data name="ToPay" xml:space="preserve">
+    <value>Att betala:</value>
+  </data>
+  <data name="Total" xml:space="preserve">
+    <value>Totalt</value>
+  </data>
+  <data name="TotalCost" xml:space="preserve">
+    <value>Total kostnad:</value>
+  </data>
+  <data name="TotalDiscount" xml:space="preserve">
+    <value>Rabatt</value>
+  </data>
+  <data name="TotalPrice" xml:space="preserve">
+    <value>Att betala</value>
+  </data>
+  <data name="UnitPrice" xml:space="preserve">
+    <value>Enhetspris</value>
+  </data>
+  <data name="Update" xml:space="preserve">
+    <value>Uppdatering</value>
+  </data>
+  <data name="Username" xml:space="preserve">
+    <value>Användarnamn</value>
+  </data>
+  <data name="UsernameRequired" xml:space="preserve">
+    <value>Användarnamn krävs</value>
+  </data>
+  <data name="View" xml:space="preserve">
+    <value>Visa</value>
+  </data>
+  <data name="Voucher" xml:space="preserve">
+    <value>Värdekupong</value>
+  </data>
+  <data name="VoucherCode" xml:space="preserve">
+    <value>Kupongkod</value>
+  </data>
+  <data name="VoucherText" xml:space="preserve">
+    <value>Om du har en kupongkod kan du ange den i fältet nedan.</value>
+  </data>
+  <data name="WaiverDetails" xml:space="preserve">
+    <value>We will not use the waiver</value>
+  </data>
+  <data name="WaiverMessage1" xml:space="preserve">
+    <value>Din bokning är klar - nu behöver vi bara lite information om dem som ska hoppa med dig.</value>
+  </data>
+  <data name="WaiverMessage2" xml:space="preserve">
+    <value>Om du har information om alla eller några deltagare kan du klicka på knappen nedan och ange den på nästa sida</value>
+  </data>
+  <data name="WaiverMessage3" xml:space="preserve">
+    <value>Om du inte har alla uppgifter till hands kan du alltid logga in med dina inloggningsuppgifter och ange aktuella uppgifter vid ett senare tillfälle.</value>
+  </data>
+  <data name="WaiverMessageMulti" xml:space="preserve">
+    <value>Din bokning inkluderar flera reservationer, som måste fyllas i separat. Notera ditt bokningsnummer ovan. Du kommer automatiskt till den första bokningen, och sedan kan du helt enkelt ange andra bokningsnumren och fylla i all nödvändig information.</value>
+  </data>
+  <data name="Welcome" xml:space="preserve">
+    <value>Välkommen</value>
+  </data>
+  <data name="Working" xml:space="preserve">
+    <value>Arbetar, vänta...</value>
+  </data>
+  <data name="GiroPay" xml:space="preserve">
+    <value>Girobetalning</value>
+  </data>
+  <data name="PayPal" xml:space="preserve">
+    <value>PayPal</value>
+  </data>
+  <data name="LongDateFormat" xml:space="preserve">
+    <value>{0: dddd, dd. MMMM yyyy}</value>
+  </data>
+  <data name="PromoHeader" xml:space="preserve">
+    <value>Rabattkoder och kuponger</value>
+  </data>
+  <data name="Send" xml:space="preserve">
+    <value>Skicka</value>
+  </data>
+  <data name="Spaces" xml:space="preserve">
+    <value>Fortfarande {0} platser &lt;span class="uk-hidden-small"&gt;tillgängliga&lt;/span&gt;</value>
+  </data>
+  <data name="Prepaid" xml:space="preserve">
+    <value>Förskottsbetald</value>
+  </data>
+  <data name="Socks" xml:space="preserve">
+    <value>Strumpor</value>
+  </data>
+  <data name="Submit" xml:space="preserve">
+    <value>Uppdatera</value>
+  </data>
+  <data name="DepositAmount" xml:space="preserve">
+    <value>50 % handpenning: {0}</value>
+  </data>
+  <data name="FullAmount" xml:space="preserve">
+    <value>Totalt att betala: </value>
+  </data>
+  <data name="GoodAvailability" xml:space="preserve">
+    <value>God tillgänglighet</value>
+  </data>
+  <data name="DiscountTotal2" xml:space="preserve">
+    <value>Rabatt totalt</value>
+  </data>
+  <data name="BalanceDueDate" xml:space="preserve">
+    <value>Balansera Due Date</value>
+  </data>
+  <data name="MemberAccountBalance" xml:space="preserve">
+    <value>Medlem konto balans</value>
+  </data>
+  <data name="PreferredTime" xml:space="preserve">
+    <value>Rekommenderad tid</value>
+  </data>
+  <data name="SecondHourTag" xml:space="preserve">
+    <value>-med andra timmen</value>
+  </data>
+  <data name="DiscountNote" xml:space="preserve">
+    <value>Rabatt [{0}]</value>
+  </data>
+  <data name="To" xml:space="preserve">
+    <value>till</value>
+  </data>
+  <data name="ABOUT" xml:space="preserve">
+    <value>UNDER ONS</value>
+  </data>
+  <data name="ACTIVITIES" xml:space="preserve">
+    <value>AKTIVITETER</value>
+  </data>
+  <data name="CONTACT" xml:space="preserve">
+    <value>KONTAKT</value>
+  </data>
+  <data name="EVENTS" xml:space="preserve">
+    <value>HÄNDELSER</value>
+  </data>
+  <data name="FAQ" xml:space="preserve">
+    <value>VANLIGA FRÅGOR OCH SVAR</value>
+  </data>
+  <data name="PARTIES" xml:space="preserve">
+    <value>PARTERNA</value>
+  </data>
+  <data name="TERMSANDCONDITIONS" xml:space="preserve">
+    <value>TERMSANDCONDITIONS</value>
+  </data>
+  <data name="BOOKNOW" xml:space="preserve">
+    <value>BOKA NU</value>
+  </data>
+  <data name="UpsellItemEmailFormat" xml:space="preserve">
+    <value>&lt;tr&gt;&lt;td&gt;{0} köpt:&lt;/td&gt; &lt;td&gt;Qty: {1}, totalt: {2:c} (@{3:c})&lt;/td&gt;&lt;/tr&gt;</value>
+  </data>
+</root>

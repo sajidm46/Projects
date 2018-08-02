@@ -1,0 +1,528 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Activity" xml:space="preserve">
+    <value>Activité</value>
+  </data>
+  <data name="Add" xml:space="preserve">
+    <value>Ajouter</value>
+  </data>
+  <data name="AmountPaid" xml:space="preserve">
+    <value>Montant payé</value>
+  </data>
+  <data name="AmountToPay" xml:space="preserve">
+    <value>Montant à payer</value>
+  </data>
+  <data name="Back" xml:space="preserve">
+    <value>Précédent</value>
+  </data>
+  <data name="BalanceDue" xml:space="preserve">
+    <value>Reste a Paye</value>
+  </data>
+  <data name="BalancePayment" xml:space="preserve">
+    <value>Reste a Paye</value>
+  </data>
+  <data name="Book" xml:space="preserve">
+    <value>Reserver</value>
+  </data>
+  <data name="BookedAt" xml:space="preserve">
+    <value>Réservé (e) à</value>
+  </data>
+  <data name="BookedBy" xml:space="preserve">
+    <value>Réservé (e) par</value>
+  </data>
+  <data name="BookingReference" xml:space="preserve">
+    <value>Référence de réservation</value>
+  </data>
+  <data name="By" xml:space="preserve">
+    <value>par</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Annuler</value>
+  </data>
+  <data name="Change" xml:space="preserve">
+    <value>Changement</value>
+  </data>
+  <data name="ChargedToAccount" xml:space="preserve">
+    <value>Au compte</value>
+  </data>
+  <data name="Complete" xml:space="preserve">
+    <value>complet</value>
+  </data>
+  <data name="Confirm" xml:space="preserve">
+    <value>Confirmer</value>
+  </data>
+  <data name="ConfirmPassword" xml:space="preserve">
+    <value>Confirmez le mot de passe :</value>
+  </data>
+  <data name="ConfirmPasswordRequired" xml:space="preserve">
+    <value>Confirmer votre mot de passe</value>
+  </data>
+  <data name="ContinueWorking" xml:space="preserve">
+    <value>Continuer à travailler</value>
+  </data>
+  <data name="Cost" xml:space="preserve">
+    <value>Coût :</value>
+  </data>
+  <data name="CustomerLogin" xml:space="preserve">
+    <value>Client Login</value>
+  </data>
+  <data name="Date" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Supprimer</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Description :</value>
+  </data>
+  <data name="DiscountTotal" xml:space="preserve">
+    <value>Total &lt;b&gt;(y compris le Code de réduction promotionnel)&lt;/b&gt;</value>
+  </data>
+  <data name="Done" xml:space="preserve">
+    <value>Fait</value>
+  </data>
+  <data name="EmailSent" xml:space="preserve">
+    <value>E-mail a été envoyé</value>
+  </data>
+  <data name="End" xml:space="preserve">
+    <value>Fin</value>
+  </data>
+  <data name="EnterPromo" xml:space="preserve">
+    <value>Si vous avez un code promotionnel alors s’il vous plaît entrer </value>
+  </data>
+  <data name="ForgottenPassword" xml:space="preserve">
+    <value>Vous avez oublié votre mot de passe ?</value>
+  </data>
+  <data name="GrandTotal" xml:space="preserve">
+    <value>Total général :</value>
+  </data>
+  <data name="GuardianWaiverAcceptance" xml:space="preserve">
+    <value>Saut en ligne levée Guardian acceptation</value>
+  </data>
+  <data name="Including" xml:space="preserve">
+    <value>Compris</value>
+  </data>
+  <data name="Item" xml:space="preserve">
+    <value>Ordre du jour</value>
+  </data>
+  <data name="Location" xml:space="preserve">
+    <value>Emplacement</value>
+  </data>
+  <data name="LoggedOut" xml:space="preserve">
+    <value>&lt;h2&gt;Vous avez quitté le jeu avec succès.&lt;/h2&gt; &lt;p&gt;Veuillez utiliser votre nom d’utilisateur existant et le mot de passe pour accéder à l’espace membres.&lt;/p&gt;</value>
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value>Ouvrir une session</value>
+  </data>
+  <data name="LoginBlurb" xml:space="preserve">
+    <value>Vous pouvez utiliser votre nom d’utilisateur existant et le mot de passe pour accéder à la zone membres.</value>
+  </data>
+  <data name="Logout" xml:space="preserve">
+    <value>Logout</value>
+  </data>
+  <data name="MasterPageBox1" xml:space="preserve">
+    <value>Seulement, vous serez capable de sauter à</value>
+  </data>
+  <data name="MasterPageBox2" xml:space="preserve">
+    <value>L’ÂGE MINIMUM </value>
+  </data>
+  <data name="MasterPageBox3" xml:space="preserve">
+    <value> s’il vous plaît être conscient qu’il existe des restrictions de taille et votre poids pour </value>
+  </data>
+  <data name="MobileMenuHelp" xml:space="preserve">
+    <value>Merci d’utiliser notre site Web mobile de réservations. </value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Nom</value>
+  </data>
+  <data name="Next" xml:space="preserve">
+    <value>Continuer</value>
+  </data>
+  <data name="NothingToPay" xml:space="preserve">
+    <value>Rien à payer </value>
+  </data>
+  <data name="OnlineBooking" xml:space="preserve">
+    <value>Réservation </value>
+  </data>
+  <data name="OnlinePayment" xml:space="preserve">
+    <value>Paiement </value>
+  </data>
+  <data name="Pair" xml:space="preserve">
+    <value>Paire</value>
+  </data>
+  <data name="Participants" xml:space="preserve">
+    <value>Participants</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>Mot de passe</value>
+  </data>
+  <data name="PasswordMismatch" xml:space="preserve">
+    <value>s’il vous plaît vérifiez vous mot de passe.</value>
+  </data>
+  <data name="PasswordRequired" xml:space="preserve">
+    <value>Mot de passe est requis</value>
+  </data>
+  <data name="Payment" xml:space="preserve">
+    <value>Paiement</value>
+  </data>
+  <data name="PaymentConfirmation" xml:space="preserve">
+    <value>Confirmation de paiement</value>
+  </data>
+  <data name="PaymentMethod" xml:space="preserve">
+    <value>Mode de paiement</value>
+  </data>
+  <data name="PaymentSuccessful" xml:space="preserve">
+    <value>Paiement avec succès !</value>
+  </data>
+  <data name="PleaseSelect" xml:space="preserve">
+    <value>Sélectionner--</value>
+  </data>
+  <data name="Powered" xml:space="preserve">
+    <value>Propulsé</value>
+  </data>
+  <data name="PoweredBy" xml:space="preserve">
+    <value>Alimenté par</value>
+  </data>
+  <data name="PrePayment" xml:space="preserve">
+    <value>Paiement anticipé</value>
+  </data>
+  <data name="Price" xml:space="preserve">
+    <value>Prix</value>
+  </data>
+  <data name="Processing" xml:space="preserve">
+    <value>Traitement des...</value>
+  </data>
+  <data name="Promo" xml:space="preserve">
+    <value>Code promotionnel</value>
+  </data>
+  <data name="PromoText" xml:space="preserve">
+    <value>Si vous avez un code promotionnel ou un bon alors s’il vous plaît entrer dans la case appropriée ci-dessous.</value>
+  </data>
+  <data name="Purchase" xml:space="preserve">
+    <value>Achat</value>
+  </data>
+  <data name="Qty" xml:space="preserve">
+    <value>Qté</value>
+  </data>
+  <data name="Quantity" xml:space="preserve">
+    <value>Quantité</value>
+  </data>
+  <data name="ReEnter" xml:space="preserve">
+    <value>Veuillez re-saisir vos informations d’identification</value>
+  </data>
+  <data name="Remove" xml:space="preserve">
+    <value>Supprimer</value>
+  </data>
+  <data name="RequiredFields" xml:space="preserve">
+    <value>désigne les champs obligatoires</value>
+  </data>
+  <data name="ReservationProcessing" xml:space="preserve">
+    <value>Veuillez patienter pendant que votre réservation est traitée...</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Enregistrer</value>
+  </data>
+  <data name="Select" xml:space="preserve">
+    <value>Sélectionnez</value>
+  </data>
+  <data name="SelectDate" xml:space="preserve">
+    <value>Sélectionnez Date :</value>
+  </data>
+  <data name="SelectLocation" xml:space="preserve">
+    <value>Sélectionnez l’emplacement :</value>
+  </data>
+  <data name="SelectOption" xml:space="preserve">
+    <value>Sélectionnez l’Option</value>
+  </data>
+  <data name="SelectPaymentMethod" xml:space="preserve">
+    <value>S’il vous plaît sélectionnez votre mode de paiement préféré</value>
+  </data>
+  <data name="SessionDate" xml:space="preserve">
+    <value>Date de votre séance:</value>
+  </data>
+  <data name="SessionTime" xml:space="preserve">
+    <value>Heure de votre séance:</value>
+  </data>
+  <data name="Sofort" xml:space="preserve">
+    <value>Sofort</value>
+  </data>
+  <data name="Start" xml:space="preserve">
+    <value>Début</value>
+  </data>
+  <data name="Submit" xml:space="preserve">
+    <value>Envoyer</value>
+  </data>
+  <data name="Subtotal" xml:space="preserve">
+    <value>Sous-total</value>
+  </data>
+  <data name="Summary" xml:space="preserve">
+    <value>Résumé</value>
+  </data>
+  <data name="TeamBlurb" xml:space="preserve">
+    <value>L’équipe de {0}</value>
+  </data>
+  <data name="TimeoutWarning" xml:space="preserve">
+    <value>Mise en garde. Votre session de serveur est sur le point d’expirer pour cause d’inactivité.</value>
+  </data>
+  <data name="TNSCheckout" xml:space="preserve">
+    <value>AMT Checkout</value>
+  </data>
+  <data name="ToPay" xml:space="preserve">
+    <value>À payer :</value>
+  </data>
+  <data name="Total" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="TotalCost" xml:space="preserve">
+    <value>Coût total :</value>
+  </data>
+  <data name="TotalDiscount" xml:space="preserve">
+    <value>Remise totale</value>
+  </data>
+  <data name="TotalPrice" xml:space="preserve">
+    <value>Prix total</value>
+  </data>
+  <data name="UnitPrice" xml:space="preserve">
+    <value>Prix unitaire</value>
+  </data>
+  <data name="Update" xml:space="preserve">
+    <value>Mise à jour</value>
+  </data>
+  <data name="Username" xml:space="preserve">
+    <value>Nom d’utilisateur</value>
+  </data>
+  <data name="UsernameRequired" xml:space="preserve">
+    <value>Nom d’utilisateur est requis</value>
+  </data>
+  <data name="View" xml:space="preserve">
+    <value>Vue</value>
+  </data>
+  <data name="Voucher" xml:space="preserve">
+    <value>Coupon</value>
+  </data>
+  <data name="VoucherCode" xml:space="preserve">
+    <value>Code du coupon</value>
+  </data>
+  <data name="VoucherText" xml:space="preserve">
+    <value>Si vous avez déjà réservé avec nous vous pouvez saisir vos détails d’utilisateur ci-dessous.</value>
+  </data>
+  <data name="WaiverDetails" xml:space="preserve">
+    <value>Détails </value>
+  </data>
+  <data name="WaiverMessage1" xml:space="preserve">
+    <value>Maintenant que vous avez complété votre réservation nous avons besoin des détails de toutes les personnes qui seront joindra à vous pour votre session </value>
+  </data>
+  <data name="WaiverMessage2" xml:space="preserve">
+    <value>Si vous avez certains ou tous les détails à la main, alors s’il vous plaît cliquez sur le bouton de Participants</value>
+  </data>
+  <data name="WaiverMessage3" xml:space="preserve">
+    <value>Si vous n’avez pas les détails tout à l’heure, alors vous pouvez vous connecter avec les informations d’identification que nous avons envoyé dans votre email de réservation et les détails complets.</value>
+  </data>
+  <data name="WaiverMessageMulti" xml:space="preserve">
+    <value>Votre réservation implique plusieurs réservations, donc vous avoir remplissez les détails participants pour chacun d'entre eux séparément. Prendre note de la référence de réservation ci-dessus, nous vous emmenons à la première, et puis vous pouvez simplement saisir chacune des références réservation pour compléter les autres.</value>
+  </data>
+  <data name="Welcome" xml:space="preserve">
+    <value>Bienvenue</value>
+  </data>
+  <data name="Working" xml:space="preserve">
+    <value>Travail, veuillez patienter...</value>
+  </data>
+  <data name="GiroPay" xml:space="preserve">
+    <value>GiroPay</value>
+  </data>
+  <data name="PayPal" xml:space="preserve">
+    <value>PayPal</value>
+  </data>
+  <data name="LongDateFormat" xml:space="preserve">
+    <value>{0:dddd dd MMMM yyyy}</value>
+  </data>
+  <data name="PromoHeader" xml:space="preserve">
+    <value>Coupons et Codes promotionnels</value>
+  </data>
+  <data name="Send" xml:space="preserve">
+    <value>Envoyer</value>
+  </data>
+  <data name="Spaces" xml:space="preserve">
+    <value>{0} places &lt;span class="uk-hidden-small"&gt; disponibles&lt;/span&gt;</value>
+  </data>
+  <data name="Prepaid" xml:space="preserve">
+    <value>Prépayé</value>
+  </data>
+  <data name="Socks" xml:space="preserve">
+    <value>Chaussettes antiderapantes</value>
+  </data>
+  <data name="DepositAmount" xml:space="preserve">
+    <value>50 % dépôt: {0:c}</value>
+  </data>
+  <data name="FullAmount" xml:space="preserve">
+    <value>Montant total : </value>
+  </data>
+  <data name="GoodAvailability" xml:space="preserve">
+    <value>Bonne disponibilité</value>
+  </data>
+  <data name="DiscountTotal2" xml:space="preserve">
+    <value>Discount Total</value>
+  </data>
+  <data name="BalanceDueDate" xml:space="preserve">
+    <value>Balance Due Date</value>
+  </data>
+  <data name="MemberAccountBalance" xml:space="preserve">
+    <value>Solde du compte membre</value>
+  </data>
+  <data name="PreferredTime" xml:space="preserve">
+    <value>Meilleur moment</value>
+  </data>
+  <data name="SecondHourTag" xml:space="preserve">
+    <value>-avec la deuxième heure</value>
+  </data>
+  <data name="DiscountNote" xml:space="preserve">
+    <value>Remise [{0}]</value>
+  </data>
+  <data name="To" xml:space="preserve">
+    <value>À</value>
+  </data>
+  <data name="ABOUT" xml:space="preserve">
+    <value>OVER ONS</value>
+  </data>
+  <data name="ACTIVITIES" xml:space="preserve">
+    <value>ACTIVITÉS</value>
+  </data>
+  <data name="CONTACT" xml:space="preserve">
+    <value>CONTACT</value>
+  </data>
+  <data name="EVENTS" xml:space="preserve">
+    <value>ÉVÉNEMENTS</value>
+  </data>
+  <data name="FAQ" xml:space="preserve">
+    <value>FAQ</value>
+  </data>
+  <data name="PARTIES" xml:space="preserve">
+    <value>PARTIES</value>
+  </data>
+  <data name="TERMSANDCONDITIONS" xml:space="preserve">
+    <value>CONDITIONSGENERALES</value>
+  </data>
+  <data name="BOOKNOW" xml:space="preserve">
+    <value>RÉSERVEZ DÈS MAINTENANT</value>
+  </data>
+  <data name="UpsellItemEmailFormat" xml:space="preserve">
+    <value>&lt;tr&gt;&lt;td&gt;{0} achetés :&lt;/td&gt; &lt;td&gt;Qty : {1}, Total : {2:c} (@ {3:c})&lt;/td&gt;&lt;/tr&gt;</value>
+  </data>
+</root>

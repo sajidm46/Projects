@@ -1,0 +1,303 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BookingFailed" xml:space="preserve">
+    <value>Unable to create Booking : {0}</value>
+  </data>
+  <data name="CancelFailedCharges" xml:space="preserve">
+    <value>Failed to Cancel Booking after LayInCharges Failed, Reason: {0}</value>
+  </data>
+  <data name="CancelFailedPayment" xml:space="preserve">
+    <value>Failed to Cancel Booking after Payment Failed. Reason: {0}</value>
+  </data>
+  <data name="CancelFailedProv" xml:space="preserve">
+    <value>Failed to CancelBooking after failing to set ReservationAttendee status to provisional : {0}</value>
+  </data>
+  <data name="CancelResFailed" xml:space="preserve">
+    <value>Failed to Cancel reservations when unable to create booking: {0} : {1}</value>
+  </data>
+  <data name="CreatePersonError" xml:space="preserve">
+    <value>Error Creating new person</value>
+  </data>
+  <data name="EmailError" xml:space="preserve">
+    <value>Error sending email From [{0}] To [{1}] Subject[{2}] Reason: {3}</value>
+  </data>
+  <data name="EnterDiscount" xml:space="preserve">
+    <value>Please enter a discount code or a voucher code</value>
+  </data>
+  <data name="ExternalWebPayError" xml:space="preserve">
+    <value>External Web Payment Method not set up correctly for this site</value>
+  </data>
+  <data name="InvalidDate" xml:space="preserve">
+    <value>Invalid Date Entered</value>
+  </data>
+  <data name="InvalidLogin" xml:space="preserve">
+    <value>Incorrect Password/User Name</value>
+  </data>
+  <data name="InvalidLoginType" xml:space="preserve">
+    <value>Invalid Login Type</value>
+  </data>
+  <data name="InvalidRequest" xml:space="preserve">
+    <value>Invalid Request!</value>
+  </data>
+  <data name="InvalidSession" xml:space="preserve">
+    <value>Invalid or expired Session</value>
+  </data>
+  <data name="LayinChargesError" xml:space="preserve">
+    <value>Failed To Lay In Charges : {0}</value>
+  </data>
+  <data name="LinkError" xml:space="preserve">
+    <value>Unexpected Error Linking Person Id {0} with {1} Reason : {2}</value>
+  </data>
+  <data name="NoBooker" xml:space="preserve">
+    <value>Can't find booker in participant list</value>
+  </data>
+  <data name="NoSiteSelected" xml:space="preserve">
+    <value>Please Select A Site</value>
+  </data>
+  <data name="NotImplemented" xml:space="preserve">
+    <value>Support for this control type has not been implemented</value>
+  </data>
+  <data name="NoTransIds" xml:space="preserve">
+    <value>No Transaction Ids returned</value>
+  </data>
+  <data name="PleaseAnswer" xml:space="preserve">
+    <value>Please answer {0}</value>
+  </data>
+  <data name="SessionUnavailable" xml:space="preserve">
+    <value>Unable to create booking: selected session is no longer available.</value>
+  </data>
+  <data name="SetProvError" xml:space="preserve">
+    <value>Failed to change Booking Status from Active to Provisional pending payment : {0}</value>
+  </data>
+  <data name="TooOld" xml:space="preserve">
+    <value>Age must be younger than {0}</value>
+  </data>
+  <data name="TooYoung" xml:space="preserve">
+    <value>Age must be older than {0}</value>
+  </data>
+  <data name="WaiverSaveError" xml:space="preserve">
+    <value>Error saving waiver: {0}</value>
+  </data>
+  <data name="BookingCancelFailed" xml:space="preserve">
+    <value>Failed to cancel booking : {0}</value>
+  </data>
+  <data name="BookingCancelled" xml:space="preserve">
+    <value>Booking Cancelled</value>
+  </data>
+  <data name="PostProcError" xml:space="preserve">
+    <value>We have confirmed your booking but have encountered an error finalising all the details. Please contact the site to confirm your booking details</value>
+  </data>
+  <data name="TNSPaymentCancelled" xml:space="preserve">
+    <value>TNS Payment Cancelled/Declined: {0}</value>
+  </data>
+  <data name="AddToResError" xml:space="preserve">
+    <value>Error adding person to reservation: {0}</value>
+  </data>
+  <data name="AgeBetween" xml:space="preserve">
+    <value>Age must be between {0} and {1}</value>
+  </data>
+  <data name="AttrError" xml:space="preserve">
+    <value>Failed to save Party Attendee attributes : {0}</value>
+  </data>
+  <data name="ConfigError" xml:space="preserve">
+    <value>Configuration setting '{0}' not defined or invalid</value>
+  </data>
+  <data name="GuardianOlder" xml:space="preserve">
+    <value>Guardian must be older than {0}</value>
+  </data>
+  <data name="InvalidDiscount" xml:space="preserve">
+    <value>Invalid Discount Code</value>
+  </data>
+  <data name="NoDefaultClient" xml:space="preserve">
+    <value>No Default Client Configured</value>
+  </data>
+  <data name="NoSitesFound" xml:space="preserve">
+    <value>Error! No Sites Found!!</value>
+  </data>
+  <data name="PersonFetchError" xml:space="preserve">
+    <value>Error fetching person record for {0}</value>
+  </data>
+  <data name="SorryNoCanDo" xml:space="preserve">
+    <value>Sorry I can't do that : {0}</value>
+  </data>
+  <data name="TNSRollbackError" xml:space="preserve">
+    <value>TNS Submit Payment Failed : {0} : Failed to set Booking to Active prior to cancelling : {1}</value>
+  </data>
+  <data name="UpdatePersonError" xml:space="preserve">
+    <value>Error updating Person Details : {0}</value>
+  </data>
+  <data name="WaiverFetchError" xml:space="preserve">
+    <value>Error fetching waiver {0}</value>
+  </data>
+  <data name="SetActiveError" xml:space="preserve">
+    <value>Failed to set resevration to active : {0}</value>
+  </data>
+  <data name="InvalidBE" xml:space="preserve">
+    <value>Unkown BE Id {0}</value>
+  </data>
+  <data name="InvalidMemberProfile" xml:space="preserve">
+    <value>Invalid Member Profile {0}</value>
+  </data>
+  <data name="InvalidMemberStatus" xml:space="preserve">
+    <value>Invalid Member Status {0}</value>
+  </data>
+  <data name="NoDefaultBE" xml:space="preserve">
+    <value>Error finding BE Id for default session group</value>
+  </data>
+  <data name="NoWaiverDefault" xml:space="preserve">
+    <value>No Waiver Id set on default BE. No point in being here.</value>
+  </data>
+  <data name="UnexpectedError" xml:space="preserve">
+    <value>Unexpected Error {0}</value>
+  </data>
+  <data name="NoteError" xml:space="preserve">
+    <value>Error creating note type {0} : {1}</value>
+  </data>
+  <data name="CancelFailedPrepay" xml:space="preserve">
+    <value>Failed to cancel Pre-Payment purchase after payment failed: {0}</value>
+  </data>
+  <data name="PrepaymentFailed" xml:space="preserve">
+    <value>Failed to finalise Pre-payment purchase: {0}</value>
+  </data>
+  <data name="CancelFailedVoucher" xml:space="preserve">
+    <value>Failed to cancel vouchers after TNS Payment failure: {0} ({1})</value>
+  </data>
+  <data name="EnterSource" xml:space="preserve">
+    <value>Please select source</value>
+  </data>
+  <data name="InvalidSite" xml:space="preserve">
+    <value>Invalid Site: {0}</value>
+  </data>
+  <data name="NoResults" xml:space="preserve">
+    <value>No Results Available</value>
+  </data>
+  <data name="InvalidPaymentMethod" xml:space="preserve">
+    <value>Invalid Payment Method: {0}</value>
+  </data>
+  <data name="PaymentMethodRequired" xml:space="preserve">
+    <value>You must select a payment method</value>
+  </data>
+  <data name="DiscountOrVoucher" xml:space="preserve">
+    <value>You cannot apply a discount code and voucher code</value>
+  </data>
+  <data name="AllocationFailed" xml:space="preserve">
+    <value>Failed to Allocate Payments : {0}</value>
+  </data>
+</root>

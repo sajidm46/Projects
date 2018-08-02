@@ -1,0 +1,300 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BookingFailed" xml:space="preserve">
+    <value>De reservering is niet gemaakt</value>
+  <comment>De reservering is niet gemaakt</comment></data>
+  <data name="CancelFailedCharges" xml:space="preserve">
+    <value>Het is niet gelukt de reservering te annuleren, reden: {0}</value>
+  <comment>Het is niet gelukt de reservering te annuleren, reden: {0}</comment></data>
+  <data name="CancelFailedPayment" xml:space="preserve">
+    <value>De reservering kan niet geannuleerd worden omdat je al betaald hebt</value>
+  <comment>De reservering kan niet geannuleerd worden omdat je al betaald hebt</comment></data>
+  <data name="CancelFailedProv" xml:space="preserve">
+    <value>De reservering kan niet geannuleerd worden omdat het aantal deelnemers niet aangepast kan worden </value>
+  <comment>De reservering kan niet geannuleerd worden omdat het aantal deelnemers niet aangepast kan worden </comment></data>
+  <data name="CancelResFailed" xml:space="preserve">
+    <value>De reservering kon niet geannuleerd worden omdat de reservering nog niet gemaakt is</value>
+  <comment>De reservering kon niet geannuleerd worden omdat de reservering nog niet gemaakt is</comment></data>
+  <data name="CreatePersonError" xml:space="preserve">
+    <value>Fout bij aanmaken nieuwe persoon</value>
+  <comment>Fout bij aanmaken nieuwe persoon</comment></data>
+  <data name="EmailError" xml:space="preserve">
+    <value>Fout bij verzenden van e-mail van [{0}] naar [{1}] met als onderwerp [{2}] reden: {3}</value>
+  <comment>Fout bij verzenden van e-mail van [{0}] naar [{1}] met als onderwerp [{2}] reden: {3}</comment></data>
+  <data name="EnterDiscount" xml:space="preserve">
+    <value>Voer een kortingscode of een vouchercode in</value>
+  <comment>Voer een kortingscode of een vouchercode in</comment></data>
+  <data name="ExternalWebPayError" xml:space="preserve">
+    <value>Deze betalingsmethode is niet juist opgezet</value>
+  <comment>Deze betalingsmethode is niet juist opgezet</comment></data>
+  <data name="InvalidDate" xml:space="preserve">
+    <value>De ingevoerde datum is ongeldig</value>
+  <comment>De ingevoerde datum is ongeldig</comment></data>
+  <data name="InvalidLogin" xml:space="preserve">
+    <value>Wachtwoord/gebruikersnaam is onjuist</value>
+  <comment>Wachtwoord/gebruikersnaam is onjuist</comment></data>
+  <data name="InvalidLoginType" xml:space="preserve">
+    <value>Ongeldige log-in</value>
+  <comment>Ongeldige log-in</comment></data>
+  <data name="InvalidRequest" xml:space="preserve">
+    <value>Ongeldige actie</value>
+  <comment>Ongeldige actie</comment></data>
+  <data name="InvalidSession" xml:space="preserve">
+    <value>De sessie is verlopen of ongeldig</value>
+  <comment>De sessie is verlopen of ongeldig</comment></data>
+  <data name="LayinChargesError" xml:space="preserve">
+    <value>Het berekenen van de prijs is mislukt</value>
+  <comment>Het berekenen van de prijs is mislukt</comment></data>
+  <data name="LinkError" xml:space="preserve">
+    <value>Onverwachte fout bij het koppelen persoon</value>
+  <comment>Onverwachte fout bij het koppelen persoon</comment></data>
+  <data name="NoBooker" xml:space="preserve">
+    <value>De boeker komt niet voor in de lijst van deelnemers</value>
+  <comment>De boeker komt niet voor in de lijst van deelnemers</comment></data>
+  <data name="NoSiteSelected" xml:space="preserve">
+    <value>Selecteer een park</value>
+  <comment>Selecteer een park</comment></data>
+  <data name="NotImplemented" xml:space="preserve">
+    <value>Ondersteuning voor dit besturingselementtype is niet geïmplementeerd</value>
+  <comment>Ondersteuning voor dit besturingselementtype is niet geïmplementeerd</comment></data>
+  <data name="NoTransIds" xml:space="preserve">
+    <value>Geen teruggave </value>
+  <comment>Geen teruggave </comment></data>
+  <data name="PleaseAnswer" xml:space="preserve">
+    <value>Beantwoord</value>
+  <comment>Beantwoord</comment></data>
+  <data name="SessionUnavailable" xml:space="preserve">
+    <value>De reservering kan niet gemaakt worden; jouw keuze is niet langer beschikbaar</value>
+  <comment>De reservering kan niet gemaakt worden; jouw keuze is niet langer beschikbaar</comment></data>
+  <data name="SetProvError" xml:space="preserve">
+    <value>Het is niet gelukt om de reservering van actief naar voorlopig te veranderen,vanwege de afwachting van de betaling.</value>
+  <comment>Het is niet gelukt om de reservering van actief naar voorlopig te veranderen,vanwege de afwachting van de betaling.</comment></data>
+  <data name="TooOld" xml:space="preserve">
+    <value>Je moet jonger zijn dan</value>
+  <comment>Je moet jonger zijn dan</comment></data>
+  <data name="TooYoung" xml:space="preserve">
+    <value>Je moet ouder zijn dan</value>
+  <comment>Je moet ouder zijn dan</comment></data>
+  <data name="WaiverSaveError" xml:space="preserve">
+    <value>Er ging iets fout bij het opslaan van het Vrijwaringsformulier</value>
+  <comment>Er ging iets fout bij het opslaan van het Vrijwaringsformulier</comment></data>
+  <data name="BookingCancelFailed" xml:space="preserve">
+    <value>De reservering kan niet geannuleerd worden</value>
+  <comment>De reservering kan niet geannuleerd worden</comment></data>
+  <data name="BookingCancelled" xml:space="preserve">
+    <value>De reservering is geannuleerd</value>
+  <comment>De reservering is geannuleerd</comment></data>
+  <data name="PostProcError" xml:space="preserve">
+    <value>We hebben nog een paar vragen over jouw reservering. Neem je contact op met ons om de reservering te bevestigen?</value>
+  <comment>We hebben nog een paar vragen over jouw reservering. Neem je contact op met ons om de reservering te bevestigen?</comment></data>
+  <data name="TNSPaymentCancelled" xml:space="preserve">
+    <value>TNS betaling geannuleerd/geweigerd: {0}</value>
+  <comment>TNS betaling geannuleerd/geweigerd: {0}</comment></data>
+  <data name="AddToResError" xml:space="preserve">
+    <value>Het lukt niet om een persoon aan de reservering toe te voegen</value>
+  <comment>Het lukt niet om een persoon aan de reservering toe te voegen</comment></data>
+  <data name="AgeBetween" xml:space="preserve">
+    <value>Leeftijd moet tussen {0} en {1} zijn</value>
+  <comment>Leeftijd moet tussen {0} en {1} zijn</comment></data>
+  <data name="AttrError" xml:space="preserve">
+    <value>Aantal gasten opslaan is mislukt</value>
+  <comment>Aantal gasten opslaan is mislukt</comment></data>
+  <data name="ConfigError" xml:space="preserve">
+    <value>Deze instelling is ongeldig of niet gedefinieerd</value>
+  <comment>Deze instelling is ongeldig of niet gedefinieerd</comment></data>
+  <data name="GuardianOlder" xml:space="preserve">
+    <value>Begeleider moet ouder zijn dan  {0}</value>
+  <comment>Begeleider moet ouder zijn dan  {0}</comment></data>
+  <data name="InvalidDiscount" xml:space="preserve">
+    <value>Ongeldige kortingscode</value>
+  <comment>Ongeldige kortingscode</comment></data>
+  <data name="NoDefaultClient" xml:space="preserve">
+    <value>Registratie is mislukt</value>
+  <comment>Registratie is mislukt</comment></data>
+  <data name="NoSitesFound" xml:space="preserve">
+    <value>Geen park gevonden</value>
+  <comment>Geen park gevonden</comment></data>
+  <data name="PersonFetchError" xml:space="preserve">
+    <value>Fout bij ophalen persoonsgegevens voor {0}</value>
+  <comment>Fout bij ophalen persoonsgegevens voor {0}</comment></data>
+  <data name="SorryNoCanDo" xml:space="preserve">
+    <value>Sorry, dat kan ik niet</value>
+  <comment>Sorry, dat kan ik niet</comment></data>
+  <data name="TNSRollbackError" xml:space="preserve">
+    <value>TNS betaling is mislukt. {0}:Het lukt niet om de boeking te veranderen omdat de boeking geannuleerd is. </value>
+  <comment>TNS betaling is mislukt. {0}:Het lukt niet om de boeking te veranderen omdat de boeking geannuleerd is. </comment></data>
+  <data name="UpdatePersonError" xml:space="preserve">
+    <value>Fout bij het bijwerken van jouw persoonlijke gegevens</value>
+  <comment>Fout bij het bijwerken van jouw persoonlijke gegevens</comment></data>
+  <data name="WaiverFetchError" xml:space="preserve">
+    <value>Fout bij het ophalen van het vrijwaringsformulier</value>
+  <comment>Fout bij het ophalen van het vrijwaringsformulier</comment></data>
+  <data name="SetActiveError" xml:space="preserve">
+    <value>Het lukt niet om de boeking op actief te zetten</value>
+  <comment>Het lukt niet om de boeking op actief te zetten</comment></data>
+  <data name="InvalidBE" xml:space="preserve">
+    <value>Onbekend Id {0}</value>
+  <comment>Onbekend Id {0}</comment></data>
+  <data name="InvalidMemberProfile" xml:space="preserve">
+    <value>Ongeldige gebruikersnaam</value>
+  <comment>Ongeldige gebruikersnaam</comment></data>
+  <data name="InvalidMemberStatus" xml:space="preserve">
+    <value>Ongeldige invoer</value>
+  <comment>Ongeldige invoer</comment></data>
+  <data name="NoDefaultBE" xml:space="preserve">
+    <value>Fout bij het vinden van de groepsessie</value>
+  <comment>Fout bij het vinden van de groepsessie</comment></data>
+  <data name="NoWaiverDefault" xml:space="preserve">
+    <value>Geen vrijwaringsformulier. Het heeft geen zin om hier te zijn.</value>
+  <comment>Geen vrijwaringsformulier. Het heeft geen zin om hier te zijn.</comment></data>
+  <data name="UnexpectedError" xml:space="preserve">
+    <value>Er is een onverwachte fout opgetreden</value>
+  <comment>Er is een onverwachte fout opgetreden</comment></data>
+  <data name="NoteError" xml:space="preserve">
+    <value>Fout bij het maken van een notitie</value>
+  <comment>Fout bij het maken van een notitie</comment></data>
+  <data name="CancelFailedPrepay" xml:space="preserve">
+    <value>Kan de vooruibetaling niet annuleren, omdat de betaling niet gelukt is.</value>
+  <comment>Kan de vooruibetaling niet annuleren, omdat de betaling niet gelukt is.</comment></data>
+  <data name="PrepaymentFailed" xml:space="preserve">
+    <value>De vooruitbetaling is niet gelukt</value>
+  <comment>De vooruitbetaling is niet gelukt</comment></data>
+  <data name="CancelFailedVoucher" xml:space="preserve">
+    <value>Kan de vouchers niet annuleren omdat de TNS betaling mislukt.</value>
+  <comment>Kan de vouchers niet annuleren omdat de TNS betaling mislukt.</comment></data>
+  <data name="EnterSource" xml:space="preserve">
+    <value>Maak een keuze</value>
+  <comment>Maak een keuze</comment></data>
+  <data name="InvalidSite" xml:space="preserve">
+    <value>Ongeldige locatie: {0}</value>
+  <comment>Ongeldige locatie: {0}</comment></data>
+  <data name="NoResults" xml:space="preserve">
+    <value>Geen resultaten beschikbaar</value>
+  <comment>Geen resultaten beschikbaar</comment></data>
+  <data name="InvalidPaymentMethod" xml:space="preserve">
+    <value>Ongeldige betalingswijze: {0}</value>
+  <comment>Ongeldige betalingswijze: {0}</comment></data>
+  <data name="PaymentMethodRequired" xml:space="preserve">
+    <value>Selecteer een betalingswijze</value>
+  <comment>Selecteer een betalingswijze</comment></data>
+  <data name="DiscountOrVoucher" xml:space="preserve">
+    <value>Vul of een kortingscode of een vouchercode in. Allebei kan niet.</value>
+  <comment>Vul of een kortingscode of een vouchercode in. Allebei kan niet.</comment></data>
+</root>

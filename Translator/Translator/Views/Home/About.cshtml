@@ -1,0 +1,111 @@
+﻿<style>
+
+    div {
+        padding: 0px;
+    }
+
+    #result_text {
+        
+    }
+
+    .divParent {
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        background-color: transparent;
+        padding:150px;
+    }
+
+    .div_dialog {
+        top: 18%;
+        left: 35%;
+        width: 100%;
+        height: auto;
+        background-color: white;
+        padding: 0px;
+        border: 1px solid #cfa3a3;
+        padding: 20px;
+        padding-bottom: 60px;
+        box-shadow: 3px 3px 45px 10px black;
+        display: inline-block
+    }
+
+        .div_dialog div, button {
+            border: 0px solid gray;
+            margin-top: 20px;
+        }
+
+    input {
+        width: inherit;
+    }
+
+    textarea {
+        height: 200px !important;
+        min-height: 100% !important;
+        max-height: 100% !important;
+        width: inherit;
+        max-width: 100% !important;
+        min-width: 100% !important;
+    }
+
+  
+</style>
+<div class="divParent">
+
+    <div class="div_dialog form-inline">
+
+                <div class="col-lg-12">
+                    Enter Text
+                    <br />
+                    <textarea type="text" class="form-control" style="width: 100%;" id="inuput_text" aria-describedby="emailHelp" placeholder="Enter text">
+Join our LivingWell Health Club & Spa Berlin. The club that offers you more.
+
+</textarea>
+                    @*<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>*@
+                </div>
+
+                <div class="col-lg-12">
+                    Language
+                    <br />
+                    <select class="form-control" id="sel_language">
+                        <option>English</option>
+                        <option selected>German</option>
+                        <option>French</option>
+                        <option>Spanish</option>
+                        <option>Swedish</option>
+                        <option>Dutch</option>
+                        <option>Urdu</option>
+                    </select>
+                    <input type="button" class="btn btn-info" onclick="fn_btnTrasnlate()" value="Translate" style="width:auto;">
+                </div>
+                <br><br><br>
+                <hr />
+                <div class="col-lg-12">
+                    <textarea class="form-control"  style="width: 100%;" id="result_text"></textarea>
+
+                </div>
+    </div>
+
+
+</div>
+
+
+<script>
+    function fn_btnTrasnlate() {
+        $.ajax({
+            url: "../Home/TranslateText",
+            data: { inputtext: $('#inuput_text').val(), languageselector: $('#sel_language').find(":selected").text() },
+            type: "GET",
+            dataType: "TEXT",
+            success: function (data) {
+                $('#result_text').val(data);
+                $("#result_text").show();
+            },
+            error: function (errdata) {
+
+            }
+        });
+    }
+</script>

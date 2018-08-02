@@ -1,0 +1,288 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Centre" xml:space="preserve">
+    <value>Centre : {0}</value>
+  </data>
+  <data name="Discount" xml:space="preserve">
+    <value>Remise</value>
+  </data>
+  <data name="InvalidAttendeeAge" xml:space="preserve">
+    <value>Veuillez entrer une Date valide de naissance du membre : {0}. âge devrait se situer entre {1} et {2} pour la composition sélectionnée. »</value>
+  </data>
+  <data name="MemberGroup" xml:space="preserve">
+    <value>Membre du groupe</value>
+  </data>
+  <data name="NetPrice" xml:space="preserve">
+    <value>Prix net</value>
+  </data>
+  <data name="NoAdults" xml:space="preserve">
+    <value>Aucun adulte ajoutés</value>
+  </data>
+  <data name="NoMembers" xml:space="preserve">
+    <value>Aucun membre ajouté</value>
+  </data>
+  <data name="None" xml:space="preserve">
+    <value>Aucun</value>
+  </data>
+  <data name="PriceToPay" xml:space="preserve">
+    <value>Prix à payer</value>
+  </data>
+  <data name="SerialNo" xml:space="preserve">
+    <value>N° de série :</value>
+  </data>
+  <data name="TicketsValid" xml:space="preserve">
+    <value>(Les billets sont valables pour cette date seulement)</value>
+  </data>
+  <data name="TotalToPay" xml:space="preserve">
+    <value>Total à payer</value>
+  </data>
+  <data name="UnitCost" xml:space="preserve">
+    <value>Coût unitaire</value>
+  </data>
+  <data name="Vat" xml:space="preserve">
+    <value>TVA</value>
+  </data>
+  <data name="VisitDate" xml:space="preserve">
+    <value>Date de visite : {0} {1}</value>
+  </data>
+  <data name="YourTickets" xml:space="preserve">
+    <value>Vos billets</value>
+  </data>
+  <data name="Complete_Blurb" xml:space="preserve">
+    <value>Un texte de présentation...</value>
+  </data>
+  <data name="Complete_Dear" xml:space="preserve">
+    <value>Dear</value>
+  </data>
+  <data name="Complete_MainHeader" xml:space="preserve">
+    <value>Paiement réussi</value>
+  </data>
+  <data name="Complete_PricePaid" xml:space="preserve">
+    <value>Prix payé</value>
+  </data>
+  <data name="Complete_Telephone" xml:space="preserve">
+    <value>Téléphone :</value>
+  </data>
+  <data name="Complete_ThankYou" xml:space="preserve">
+    <value>Nous vous remercions d’avoir acheté des billets pour jouer au ???????.  Retrouvez les détails de confirmation ci-dessous. Vous pouvez imprimer cet écran pour vos dossiers.</value>
+  </data>
+  <data name="Complete_TheTeam" xml:space="preserve">
+    <value>L’équipe de {0}</value>
+  </data>
+  <data name="Complete_ThisDateOnly" xml:space="preserve">
+    <value>(Les billets sont valables pour cette date seulement)</value>
+  </data>
+  <data name="Complete_TicketSummary" xml:space="preserve">
+    <value>Votre résumé de billets</value>
+  </data>
+  <data name="General_Centre" xml:space="preserve">
+    <value>Centre : {0}</value>
+  </data>
+  <data name="General_Discount" xml:space="preserve">
+    <value>Remise</value>
+  </data>
+  <data name="General_InvalidAttendeeAge" xml:space="preserve">
+    <value>Veuillez entrer une Date valide de naissance du membre : {0}. âge devrait se situer entre {1} et {2} pour la composition sélectionnée. »</value>
+  </data>
+  <data name="General_MemberGroup" xml:space="preserve">
+    <value>Membre du groupe</value>
+  </data>
+  <data name="General_NetPrice" xml:space="preserve">
+    <value>Prix net</value>
+  </data>
+  <data name="General_NoAdults" xml:space="preserve">
+    <value>Aucun adulte ajoutés</value>
+  </data>
+  <data name="General_NoMembers" xml:space="preserve">
+    <value>Aucun membre ajouté</value>
+  </data>
+  <data name="General_None" xml:space="preserve">
+    <value>Aucun</value>
+  </data>
+  <data name="General_PriceToPay" xml:space="preserve">
+    <value>Prix à payer</value>
+  </data>
+  <data name="General_SerialNo" xml:space="preserve">
+    <value>N° de série :</value>
+  </data>
+  <data name="General_TicketsValid" xml:space="preserve">
+    <value>(Les billets sont valables pour cette date seulement)</value>
+  </data>
+  <data name="General_TotalToPay" xml:space="preserve">
+    <value>Total à payer</value>
+  </data>
+  <data name="General_UnitCost" xml:space="preserve">
+    <value>Coût unitaire</value>
+  </data>
+  <data name="General_Vat" xml:space="preserve">
+    <value>TVA</value>
+  </data>
+  <data name="General_VisitDate" xml:space="preserve">
+    <value>Date de visite : {0} {1}</value>
+  </data>
+  <data name="General_YourTickets" xml:space="preserve">
+    <value>Vos billets</value>
+  </data>
+  <data name="Step1_AdultsRequired" xml:space="preserve">
+    <value>Vous avez besoin d’au moins un adulte pour votre visite !</value>
+  </data>
+  <data name="Step1_ChildrenRequired" xml:space="preserve">
+    <value>Vous avez besoin d’au moins un enfant pour votre visite !</value>
+  </data>
+  <data name="Step1_Info" xml:space="preserve">
+    <value>&lt;p&gt;Prix reposent sur un usage illimité sur nos manèges forains et murs d’escalade.  Balades varient entre les sites. Coût comprend une utilisation illimitée des installations. Veuillez noter en heures de pointe, telles que les vacances scolaires un hr 2,5 jouer session peuvent être introduits. Les frais d’inscription sont en plus des frais d’entrée et par famille pour la vie. Il permet à votre famille d’accéder à n’importe quel centre de ???????. Chaque famille inscrit recevront leur propre carte de sécurité magnétique et d’un pack comprenant un bon de réduction de café 2,50 £ parmi d’autres.&lt;/p&gt; &lt;p class="req"&gt; s’il vous plaît être conscient que tous les billets achetés sont non remboursables.&lt;/p&gt;</value>
+  </data>
+  <data name="Step1_MainHeader" xml:space="preserve">
+    <value>Acheter des billets</value>
+  </data>
+  <data name="Step1_NoAvailability" xml:space="preserve">
+    <value>Il y a insuffisants billets disponibles pour la date et la session sélectionnée. Veuillez sélectionner une autre date ou session.</value>
+  </data>
+  <data name="Step1_SelectTime" xml:space="preserve">
+    <value>Veuillez sélectionner le temps, que vous avez l’intention de visiter :</value>
+  </data>
+  <data name="Step1_TooManyChildren" xml:space="preserve">
+    <value>Tous les groupes de 15 enfants ou plus doivent être réservé directement avec notre centre. S’il vous plaît contactez-nous. Merci.</value>
+  </data>
+  <data name="Step2_MainHeader" xml:space="preserve">
+    <value>Membre de la tête</value>
+  </data>
+  <data name="Step2_Section1" xml:space="preserve">
+    <value>1. Parlez-nous de vous</value>
+  </data>
+  <data name="Step3_Info" xml:space="preserve">
+    <value>&lt;p&gt;Près de là, s’il vous plaît maintenant nous donner les détails de tous les autres membres de votre groupe. Lorsque vous remplissez chaque membre détails s’il vous plaît sélectionnez l’option lien correct :&lt;/p&gt; &lt;ul&gt;&lt;li&gt;famille enfant = vos enfants&lt;/li&gt; &lt;li&gt;Parent/tuteur = pour les autres membres de la famille adultes&lt;/li&gt; &lt;li&gt;Commentaires = pour tous les enfants et les adultes qui ne sont pas membres de la famille par exemple amis&lt;/li&gt;&lt;/ul&gt;</value>
+  </data>
+  <data name="Step3_MainHeader" xml:space="preserve">
+    <value>Membres liés</value>
+  </data>
+  <data name="Step4_CBAgree" xml:space="preserve">
+    <value>J’accepte les conditions ci-dessus.</value>
+  </data>
+  <data name="Step4_CBAgreeRequired" xml:space="preserve">
+    <value>S’il vous plaît accepter nos règles du jeu avant de continuer.</value>
+  </data>
+  <data name="Step4_FamilyVisitOnline" xml:space="preserve">
+    <value>Visite familiale en ligne</value>
+  </data>
+  <data name="Step4_RulesOfPlay" xml:space="preserve">
+    <value>&lt;p&gt;Il est très important de lire, de comprendre et d’accepter nos &lt;a href="http://party.???????.com/PartyBooking/pdf/RulesOfPlay.pdf" style="text-decoration: underline;" target="_blank"&gt; Règles du jeu&lt;/a&gt; avant de poursuivre.&lt;/p&gt; &lt;p&gt;je comprends que les billets sont valables pour la date et l’heure affichées uniquement. Les billets sont non transférables et non remboursables.&lt;/p&gt;</value>
+  </data>
+</root>

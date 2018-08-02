@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AddToOrder" xml:space="preserve">
+    <value>Add to order</value>
+  </data>
+  <data name="BackToGroups" xml:space="preserve">
+    <value>Back To Groups</value>
+  </data>
+  <data name="DeliverTo" xml:space="preserve">
+    <value>Deliver to:</value>
+  </data>
+  <data name="DeliverVia" xml:space="preserve">
+    <value>Deliver via:</value>
+  </data>
+  <data name="Delivery" xml:space="preserve">
+    <value>Delivery</value>
+  </data>
+  <data name="DeliveryCost" xml:space="preserve">
+    <value>Delivery Cost</value>
+  </data>
+  <data name="DeliveryInformation" xml:space="preserve">
+    <value>Delivery Information</value>
+  </data>
+  <data name="GiftVouchers" xml:space="preserve">
+    <value>Gift Vouchers</value>
+  </data>
+  <data name="InvalidItem" xml:space="preserve">
+    <value>Invalid Item.</value>
+  </data>
+  <data name="ItemCost" xml:space="preserve">
+    <value>Cost of items in this delivery:</value>
+  </data>
+  <data name="MultiDelivery" xml:space="preserve">
+    <value>Deliver items to multiple addresses</value>
+  </data>
+  <data name="NoDeliveryMethods" xml:space="preserve">
+    <value>No delivery methods defined.</value>
+  </data>
+  <data name="Packaging" xml:space="preserve">
+    <value>Packaging</value>
+  </data>
+  <data name="PersonalMessage" xml:space="preserve">
+    <value>Personal message:</value>
+  </data>
+  <data name="Postage" xml:space="preserve">
+    <value>Postage</value>
+  </data>
+  <data name="ReturnToCart" xml:space="preserve">
+    <value>Return To Cart</value>
+  </data>
+  <data name="ReturnToGifts" xml:space="preserve">
+    <value>Return To Gifts Listings</value>
+  </data>
+  <data name="SelectDelivery" xml:space="preserve">
+    <value>Please select how you would like your order to be delivered. You may separate your order into multiple deliveries.</value>
+  </data>
+  <data name="ShoppingBasket" xml:space="preserve">
+    <value>Shopping Basket</value>
+  </data>
+  <data name="SingleDelivery" xml:space="preserve">
+    <value>Deliver all items to a single address</value>
+  </data>
+  <data name="TransactionProcessing" xml:space="preserve">
+    <value>Please wait...</value>
+  </data>
+  <data name="VoucherRedemption_EnterSecurityCodes" xml:space="preserve">
+    <value>You need to enter the security code from the voucher you are using here. If you are redeeming more than one voucher then please enter all the security codes seperated with commas.</value>
+  </data>
+  <data name="VoucherRedemption_MainHeader" xml:space="preserve">
+    <value>Voucher Redemption</value>
+  </data>
+  <data name="VoucherRedemption_SecurityCodeRequired" xml:space="preserve">
+    <value>Please enter your security code(s)</value>
+  </data>
+  <data name="VoucherRedemption_SecurityCodes" xml:space="preserve">
+    <value>Security Code(s)</value>
+  </data>
+  <data name="VoucherRedemption_SubHeader" xml:space="preserve">
+    <value>&lt;h2&gt;Please select your preferences&lt;/h2&gt;&lt;p&gt;Welcome to our on-line voucher redemption service. If you have any issues using this service then please contact the club who will be happy to help.&lt;/p&gt;</value>
+  </data>
+  <data name="YourDeliveries" xml:space="preserve">
+    <value>Your Deliveries</value>
+  </data>
+</root>

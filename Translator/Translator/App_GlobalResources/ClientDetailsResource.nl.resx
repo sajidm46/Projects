@@ -1,0 +1,359 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AddBooking" xml:space="preserve">
+    <value>Vul hieronder jouw inloggegevens in:</value>
+    <comment>Vul hieronder jouw inloggegevens in:</comment>
+  </data>
+  <data name="Address1" xml:space="preserve">
+    <value>Straat en huisnummer</value>
+    <comment>Straat en huisnummer</comment>
+  </data>
+  <data name="Address2" xml:space="preserve">
+    <value>(Extra adresregel )</value>
+    <comment>(Extra adresregel )</comment>
+  </data>
+  <data name="Address3" xml:space="preserve">
+    <value>Postcode en woonplaats</value>
+    <comment>Postcode en woonplaats</comment>
+  </data>
+  <data name="AddressRequired" xml:space="preserve">
+    <value>Vul hier jouw adres in.</value>
+    <comment>Vul hier jouw adres in.</comment>
+  </data>
+  <data name="BookedBefore" xml:space="preserve">
+    <value>Heb je al bij ons gesprongen?</value>
+    <comment>Ben je een terugkerende bezoeker:?</comment>
+  </data>
+  <data name="ContactDetails" xml:space="preserve">
+    <value>Contactgegevens</value>
+    <comment>Contactgegevens</comment>
+  </data>
+  <data name="DateOfBirth" xml:space="preserve">
+    <value>Geboortedatum</value>
+    <comment>Geboortedatum</comment>
+  </data>
+  <data name="Dr" xml:space="preserve">
+    <value>Dr</value>
+    <comment>Dr</comment>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>E-mail </value>
+    <comment>E-mail </comment>
+  </data>
+  <data name="EmailRequired" xml:space="preserve">
+    <value>Vul jouw e-mailadres in</value>
+    <comment>Vul jouw e-mailadres in</comment>
+  </data>
+  <data name="FindAddress" xml:space="preserve">
+    <value>Adres zoeken </value>
+    <comment>Adres zoeken </comment>
+  </data>
+  <data name="FirstBooking" xml:space="preserve">
+    <value>eerste keer bij ons?</value>
+    <comment>Eerste boeking?</comment>
+  </data>
+  <data name="FirstName" xml:space="preserve">
+    <value>Voornaam</value>
+    <comment>Voornaam</comment>
+  </data>
+  <data name="FirstNameRequired" xml:space="preserve">
+    <value>Vul hier jouw voornaam in</value>
+    <comment>Vul hier jouw voornaam in</comment>
+  </data>
+  <data name="HasWaiver" xml:space="preserve">
+    <value>met vrijwaringsformulier</value>
+    <comment>met vrijwaringsformulier</comment>
+  </data>
+  <data name="HouseNumber" xml:space="preserve">
+    <value>Huisnummer</value>
+    <comment>Huisnummer</comment>
+  </data>
+  <data name="InvalidEmail" xml:space="preserve">
+    <value>Ongeldig e-mailadres</value>
+    <comment>Ongeldig e-mailadres</comment>
+  </data>
+  <data name="InvalidPhone" xml:space="preserve">
+    <value>Ongeldig telefoonnummer</value>
+    <comment>Ongeldig telefoonnummer</comment>
+  </data>
+  <data name="LastName" xml:space="preserve">
+    <value>Achternaam</value>
+    <comment>Achternaam</comment>
+  </data>
+  <data name="LastNameRequired" xml:space="preserve">
+    <value>Vul jouw achternaam in</value>
+    <comment>Vul jouw achternaam in</comment>
+  </data>
+  <data name="LoginRequired" xml:space="preserve">
+    <value>Jouw gegevens zijn al bekend in ons reserveringsysteem. Log in om een reservering te maken.</value>
+    <comment>Jouw gegevens zijn al bekend in ons reserveringsysteem. Log in om een reservering te maken.</comment>
+  </data>
+  <data name="Miss" xml:space="preserve">
+    <value>Mej.</value>
+    <comment>Mej.</comment>
+  </data>
+  <data name="Mr" xml:space="preserve">
+    <value>De heer</value>
+    <comment>De heer</comment>
+  </data>
+  <data name="Mrs" xml:space="preserve">
+    <value>Mevrouw</value>
+    <comment>Mevrouw</comment>
+  </data>
+  <data name="Ms" xml:space="preserve">
+    <value>Mej. </value>
+    <comment>Mej. </comment>
+  </data>
+  <data name="MyChild" xml:space="preserve">
+    <value>Mijn kind</value>
+    <comment>Mijn kind</comment>
+  </data>
+  <data name="NewBooking" xml:space="preserve">
+    <value>Is dit jouw eerste reservering? Vul dan jouw gegevens hieronder in.</value>
+    <comment>Is dit jouw eerste reservering? Vul dan jouw gegevens hieronder in.</comment>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>Nee</value>
+    <comment>Nee</comment>
+  </data>
+  <data name="ParentGuardianDetails" xml:space="preserve">
+    <value>Gegevens van de ouder/voogd</value>
+    <comment>Gegevens van de ouder/voogd</comment>
+  </data>
+  <data name="Participating" xml:space="preserve">
+    <value>Ik doe mee</value>
+    <comment>Ik doe mee</comment>
+  </data>
+  <data name="Person" xml:space="preserve">
+    <value>Naam</value>
+    <comment>Naam</comment>
+  </data>
+  <data name="PersonTitle" xml:space="preserve">
+    <value>Aanhef</value>
+    <comment>Aanhef</comment>
+  </data>
+  <data name="Phone" xml:space="preserve">
+    <value>Tefefoon</value>
+    <comment>Tefefoon</comment>
+  </data>
+  <data name="PhoneRegex" xml:space="preserve">
+    <value>^\d{9,14}$</value>
+    <comment>^\d{9,14}$</comment>
+  </data>
+  <data name="PhoneRequired" xml:space="preserve">
+    <value>Vul jouw telefoonnummer in </value>
+    <comment>Vul jouw telefoonnummer in </comment>
+  </data>
+  <data name="PostCode" xml:space="preserve">
+    <value>Postcode </value>
+    <comment>Postcode </comment>
+  </data>
+  <data name="PostCodeRequired" xml:space="preserve">
+    <value>Vul jouw postcode in</value>
+    <comment>Vul jouw postcode in</comment>
+  </data>
+  <data name="ResendEmail" xml:space="preserve">
+    <value>Verstuur e-mail nog een keer</value>
+    <comment>Verstuur e-mail nog een keer</comment>
+  </data>
+  <data name="RUJumping" xml:space="preserve">
+    <value>Ga jij ook springen?</value>
+    <comment>Ga jij ook springen?</comment>
+  </data>
+  <data name="SelectAddress" xml:space="preserve">
+    <value>Selecteer adres</value>
+    <comment>Selecteer adres</comment>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Ja</value>
+    <comment>Ja</comment>
+  </data>
+  <data name="YourDetails" xml:space="preserve">
+    <value>Jouw gegevens</value>
+    <comment>Jouw gegevens</comment>
+  </data>
+  <data name="JoinedOnline" xml:space="preserve">
+    <value>Datum online registratie</value>
+    <comment>Datum online registratie</comment>
+  </data>
+  <data name="UseBookerDetails" xml:space="preserve">
+    <value>Gebruik gegevens van de boeker</value>
+    <comment>Gebruik gegevens van de boeker</comment>
+  </data>
+  <data name="Address" xml:space="preserve">
+    <value>Adres:</value>
+    <comment>Adres:</comment>
+  </data>
+  <data name="ConfirmEmail" xml:space="preserve">
+    <value>Bevestig e-mailadres</value>
+    <comment>Bevestig e-mailadres</comment>
+  </data>
+  <data name="EmailMismatch" xml:space="preserve">
+    <value>De e-mailadressen zijn niet gelijk</value>
+    <comment>De e-mailadressen zijn niet gelijk</comment>
+  </data>
+  <data name="ExistingCustomer" xml:space="preserve">
+    <value>Terugkerende bezoeker</value>
+    <comment>Terugkerende bezoeker</comment>
+  </data>
+  <data name="ExistingPurchase" xml:space="preserve">
+    <value>Inloggen terugkerende bezoeker</value>
+    <comment>Inloggen terugkerende bezoeker</comment>
+  </data>
+  <data name="HowHear" xml:space="preserve">
+    <value>Hoe heb je over ons gehoord?</value>
+    <comment>Hoe heb je over ons gehoord?</comment>
+  </data>
+  <data name="Remind" xml:space="preserve">
+    <value>Voer jouw geregistreerde e-mailadres in. Dan ontvang je een e-mail met een nieuw wachtwoord.</value>
+    <comment>Voer jouw geregistreerde e-mailadres in. Dan ontvang je een e-mail met een nieuw wachtwoord.</comment>
+  </data>
+  <data name="ReminderError" xml:space="preserve">
+    <value>Er is iets fout gegaan bij het versturen van de nieuwe inloggegevens</value>
+    <comment>Er is iets fout gegaan bij het versturen van de nieuwe inloggegevens</comment>
+  </data>
+  <data name="ReminderSent" xml:space="preserve">
+    <value>De nieuwe inloggegevens zijn verstuurd naar '{0}'.</value>
+    <comment>De nieuwe inloggegevens zijn verstuurd naar '{0}'.</comment>
+  </data>
+  <data name="UnknownEmailAddress" xml:space="preserve">
+    <value>Het e-mail adres is niet bekend</value>
+    <comment>Het e-mail adres is niet bekend</comment>
+  </data>
+  <data name="AllDetailsRequired" xml:space="preserve">
+    <value>Vul alle gegevens in voor deze persoon</value>
+    <comment>Vul alle gegevens in voor deze persoon</comment>
+  </data>
+  <data name="AlreadyRegistered" xml:space="preserve">
+    <value>Ik ben al geregistreerd</value>
+    <comment>Ik ben al geregistreerd</comment>
+  </data>
+  <data name="EmailRegex" xml:space="preserve">
+    <value>\w+([-+.]\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*</value>
+    <comment>\w+([-+.]\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*</comment>
+  </data>
+  <data name="TownRegex" xml:space="preserve">
+    <value>[a-zA-Z\s] *</value>
+    <comment>[a-zA-Z\s] *</comment>
+  </data>
+  <data name="SupportedTitles" xml:space="preserve">
+    <value>Dhr.:Mw.</value>
+  </data>
+</root>
